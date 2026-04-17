@@ -222,6 +222,35 @@ entity Notification {
 + markAsRead(): void
 + send(): void
 }
+
+'//---RELATIONSHIPS---//
+
+' Relaciones de Composición (Ciclo de vida dependiente)
+Parents "1" *-- "1..*" Baby
+Baby "1" *-- "0..*" HealthRecord
+Baby "1" *-- "0..*" HealthReport
+
+' Relaciones de Asociación y Agregación
+Parents "1" -- "1" UserSubscription
+UserSubscription "n" -- "1" SubscriptionPlan
+Baby "1" o-- "0..1" Device
+Medic "1" -- "0..*" FollowUp
+FollowUp "n" -- "1" Baby
+Medic "1" -- "0..*" AlertRange
+HealthRecord "n" -- "0..1" AlertRange
+Device "1" -- "0..*" HealthRecord
+
+' Relaciones con ENUMS (Uso de tipos)
+Baby ..> Gender : <<use>>
+Device ..> DeviceStatus : <<use>>
+FollowUp ..> FollowUpStatus : <<use>>
+UserSubscription ..> PaymentStatus : <<use>>
+Notification ..> NotificationType : <<use>>
+
+' Relaciones de Notificación
+Notification "n" -- "0..1" Parents
+Notification "n" -- "0..1" Medic
+Notification "n" -- "0..1" HealthRecord
 @enduml
 ```
 
