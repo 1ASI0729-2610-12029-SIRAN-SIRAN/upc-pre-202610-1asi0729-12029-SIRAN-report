@@ -72,7 +72,23 @@
 
 ### 2.3.2. User Task Matrix
 
+En este cuadro presentaremos nuestros segmentos objetivos: Padres y Médicos Pediatras. Consideraremos las tareas esenciales que realizarán para asegurar el monitoreo preventivo del neonato y la toma de decisiones clínicas informadas.
+
+<img src="assets\UTM.png">
+
+En estos casos vemos que ambas partes dan una importancia crítica a la gestión de alertas y notificaciones, ya que es el núcleo preventivo de SIRAN para evitar complicaciones neonatales. Los padres son los encargados de la tarea con mayor frecuencia: el registro constante de los HealthRecord (temperatura y saturación), lo cual es vital para alimentar la base de datos del sistema.
+
+Por otro lado, los médicos pediatras centran su mayor interés en la generación de reportes y análisis de tendencias, ya que estos datos objetivos les permiten optimizar el tiempo de consulta y realizar diagnósticos mucho más precisos que los basados en relatos anecdóticos. Finalmente, la configuración de los rangos de alerta (AlertRange) es una tarea compartida donde el médico tiene la máxima importancia técnica para definir qué niveles son seguros para cada paciente específico.
+
 ### 2.3.3. User Journey Mapping
+
+**Padres Primerizos**
+
+<img src="assets\Segemento_ Padres primerizos.png">
+
+**Medicos pediatras**
+
+<img src="assets\Segemento_ Medicos pediatras.png">
 
 ### 2.3.4. Empathy Mapping
 
