@@ -2,8 +2,60 @@
 
 ## 3.1. User Stories
 
+- Epic
+
 ```{=latex}
 \newpage
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+EPIC ID
+& 
+Titulo 
+& 
+Descripcion\\
+\hline
+EP01
+& 
+Gestión y Monitoreo de Datos Neonatales  
+& 
+Como padre o neonatólogo, quiero registrar y consultar información del recién nacido para llevar un control detallado de su evolución y seguimiento clínico.\\
+\hline
+EP02
+& 
+Alertas Inteligentes y Notificaciones 
+& 
+Como padre o neonatólogo, quiero recibir alertas y notificaciones sobre valores críticos del bebé para reaccionar oportunamente y priorizar la atención médica.\\
+\hline
+EP03
+& 
+Análisis y Reportes 
+& 
+Como padre o neonatólogo, quiero visualizar reportes y resúmenes del estado del bebé para comprender su evolución y apoyar la toma de decisiones.\\
+\hline
+EP04
+& 
+Gestión de Cuenta 
+& 
+Como padre o neonatólogo, quiero gestionar mi cuenta en la plataforma para acceder de manera segura a las funcionalidades del sistema.\\
+\hline
+EP05
+& 
+Captación y Presentación de la Plataforma 
+& 
+Como visitante, quiero conocer la plataforma y sus beneficios para evaluar su utilidad y decidir si registrarme.\\
+\hline
+EP06
+& 
+Documentación Técnica y Marco Estratégico del Proyecto 
+& 
+Como developer, quiero definir y documentar el modelo de negocio, requisitos y diseño del sistema para guiar el desarrollo del producto de manera estructurada.\\
+\hline
+\end{longtable}
+```
+
+- User Stories
+
+```{=latex}
 \begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 STORY ID
@@ -228,26 +280,6 @@ Given que se muestran testimonios,
 When el visitante los lee,  
 Then puede identificar claramente a qué segmento pertenecen.\newline
 & 
-Relacionado con (EPIC ID)\\
-\hline
-EPIC / Story 
-& 
-Titulo 
-& 
-Descripcion 
-& 
-Criterios de aceptacion 
-& 
-Relacionado con (EPIC ID)\\
-\hline
-EPIC / Story 
-& 
-Titulo 
-& 
-Descripcion 
-& 
-Criterios de aceptacion 
-& 
 EP05\\
 \hline
 HU12
@@ -288,16 +320,6 @@ Escenario 3: Acceso a proceso de pago\newline
 Given que el visitante selecciona un plan de suscripción,
 When accede a la sección de pago,
 Then el sistema muestra las opciones disponibles para completar la suscripción.\newline
-\newline
-Escenario 4: Confirmación de suscripción\newline
-Given que el usuario selecciona un método de pago,
-When confirma la operación,
-Then el sistema registra la suscripción como exitosa y activa el plan correspondiente.\newline
-\newline
-Escenario 5: Cancelación del proceso\newline
-Given que el usuario inicia el proceso de suscripción,
-When abandona la operación antes de confirmarla,
-Then el sistema no activa ningún plan.\newline
 & 
 EP05\\
 \hline
@@ -355,57 +377,86 @@ Then puede marcarla como revisada.
 & 
 EP01\\
 \hline
-EPIC / Story 
+HU17
 & 
-Titulo 
+Visualizar interfaz adaptativa 
 & 
-Descripcion 
+Como visitante, quiero que la landing page se adapte a mi dispositivo móvil para navegar cómodamente desde cualquier lugar.
 & 
-Criterios de aceptacion 
+Escenario 1: Navegación móvil \newline
+Given que el usuario accede desde un smartphone, 
+When carga la página, 
+Then los elementos se reordenan verticalmente y el menú se convierte en tipo hamburguesa. \newline
+\newline
+Escenario 2: Cambio de orientación \newline
+Given que el usuario rota su tablet, 
+When la pantalla cambia de tamaño, 
+Then el diseño se ajusta fluidamente sin perder información ni superponer textos.
 & 
-Relacionado con (EPIC ID)\\
+EP05\\
 \hline
-EPIC / Story 
+HU18
 & 
-Titulo 
+Cambiar idioma de la plataforma
 & 
-Descripcion 
+Como visitante extranjero, quiero cambiar el idioma de la página mediante un botón para entender mejor la propuesta de SIRAN. 
 & 
-Criterios de aceptacion 
+Escenario 1: Traducción instantánea\newline
+Given que el usuario está en la landing page, 
+When hace clic en el botón de cambio de idioma (ES/EN), 
+Then todos los textos de la página se traducen al idioma seleccionado sin recargar el sitio. \newline
+\newline
+Escenario 2: Persistencia de idioma \newline
+Given que el usuario seleccionó un idioma, 
+When navega entre las secciones de la landing, 
+Then el sistema mantiene el idioma elegido durante toda la sesión. 
 & 
-Relacionado con (EPIC ID)\\
+EP05\\
 \hline
-EPIC / Story 
+HU19
 & 
-Titulo 
+Navegación por anclas 
 & 
-Descripcion 
+Como visitante, quiero navegar por las secciones de la landing desde el menú principal para acceder rápido a la información. 
 & 
-Criterios de aceptacion 
+Escenario 1: Desplazamiento suave \newline
+Given que el usuario hace clic en "Planes" en el menú, 
+When el sistema procesa el clic, 
+Then la página se desliza suavemente hasta la sección correspondiente en lugar de saltar bruscamente. \newline
+\newline
+Escenario 2: Enlace roto \newline
+Given que una sección fue eliminada, 
+When el usuario hace clic en el menú, 
+Then el sistema redirige al inicio de la página por defecto.
 & 
-Relacionado con (EPIC ID)\\
+EP05\\
 \hline
-EPIC / Story 
+HU20 
 & 
-Titulo 
+Personalizar umbrales de alerta médica 
 & 
-Descripcion 
+Como neonatólogo, quiero ajustar los rangos de normalidad para un paciente específico para recibir alertas basadas en su condición clínica. 
 & 
-Criterios de aceptacion 
+Escenario 1: Actualización de rangos \newline 
+Given que el médico visualiza el perfil de un bebé con condiciones especiales,  
+When modifica los valores máximos y mínimos de temperatura u oxígeno, 
+Then el sistema aplica estos nuevos límites exclusivamente para dicho paciente. \newline  
+\newline
+Escenario 2: Valores inconsistentes \newline
+Given que el médico intenta guardar un rango,
+When el valor mínimo es mayor al valor máximo,
+Then el sistema impide el guardado y solicita la corrección de los datos.
 & 
-Relacionado con (EPIC ID)\\
+EP02\\
 \hline
-EPIC / Story 
-& 
-Titulo 
-& 
-Descripcion 
-& 
-Criterios de aceptacion 
-& 
-Relacionado con (EPIC ID)\\
+\end{longtable}
+```
+
+- Technical Stories
+```{=latex}
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
-EPIC / Story 
+STORY ID
 & 
 Titulo 
 & 
@@ -413,37 +464,191 @@ Descripcion
 & 
 Criterios de aceptacion 
 & 
-Relacionado con (EPIC ID)\\
+EPIC ID\\
 \hline
-EPIC / Story 
+TS01
 & 
-Titulo 
+API de registro de datos del bebé 
 & 
-Descripcion 
+Como Developer, quiero implementar un endpoint para registrar los datos del bebé para almacenar información clínica en el sistema.
 & 
-Criterios de aceptacion 
+Escenario 1: Registro exitoso\newline
+Given que se recibe una solicitud POST con datos válidos del bebé,
+When el endpoint procesa la solicitud,
+Then el sistema almacena la información en la base de datos y retorna confirmación exitosa.\newline
+\newline
+Escenario 2: Datos inválidos\newline
+Given que se recibe una solicitud POST con datos incompletos o incorrectos,
+When el endpoint valida la información,
+Then el sistema rechaza la solicitud y retorna un mensaje de error.
 & 
-Relacionado con (EPIC ID)\\
+EP01\\
 \hline
-EPIC / Story 
+TS02 
 & 
-Titulo 
+API de consulta de historial del bebé 
 & 
-Descripcion 
+Como Developer, quiero implementar un endpoint para obtener el historial de registros del bebé para permitir su visualización y análisis. 
 & 
-Criterios de aceptacion 
+Escenario 1: Consulta exitosa\newline
+Given que se recibe una solicitud GET con un identificador válido del bebé,
+When el endpoint procesa la solicitud,
+Then el sistema retorna los registros ordenados cronológicamente.\newline
+\newline
+Escenario 2: Bebé no encontrado\newline
+Given que se recibe una solicitud GET con un identificador inexistente,
+When el endpoint procesa la solicitud,
+Then el sistema retorna un mensaje indicando que no existe información. 
 & 
-Relacionado con (EPIC ID)\\
+EP01\\
 \hline
-EPIC / Story 
+TS03
 & 
-Titulo 
+Lógica de generación de alertas por parámetros 
 & 
-Descripcion 
+Como Developer, quiero implementar la lógica de generación de alertas basada en parámetros registrados para detectar valores fuera de rango.
 & 
-Criterios de aceptacion 
+Escenario 1: Generación de alerta\newline
+Given que se registra un dato que excede los umbrales definidos,
+When el sistema evalúa el valor,
+Then se genera una alerta asociada al bebé.\newline
+\newline
+Escenario 2: Valor dentro de rango\newline
+Given que se registra un dato dentro de los rangos normales,
+When el sistema evalúa el valor,
+Then no se genera ninguna alerta.
 & 
-Relacionado con (EPIC ID)\\
+EP02\\
+\hline
+TS04 
+& 
+API de consulta de alertas generadas 
+& 
+Como Developer, quiero implementar un endpoint para consultar las alertas generadas para permitir su visualización por usuarios autorizados. 
+& 
+Escenario 1: Consulta de alertas existentes\newline
+Given que se recibe una solicitud GET con un bebé válido,
+When el endpoint procesa la solicitud,
+Then el sistema retorna la lista de alertas registradas.\newline
+\newline
+Escenario 2: Sin alertas\newline
+Given que no existen alertas registradas para el bebé,
+When el endpoint procesa la solicitud,
+Then el sistema retorna una lista vacía.& 
+EP02\\
+\hline
+TS05
+& 
+API de generación de reportes del bebé
+& 
+Como Developer, quiero implementar un endpoint para generar reportes del bebé para facilitar el análisis de su evolución. 
+& 
+Escenario 1: Generación exitosa de reporte\newline
+Given que existen datos suficientes del bebé,
+When se solicita el reporte,
+Then el sistema genera un resumen con tendencias y datos relevantes.\newline
+\newline
+Escenario 2: Datos insuficientes\newline
+Given que no existen registros suficientes,
+When se solicita el reporte,
+Then el sistema retorna un mensaje indicando falta de información. 
+& 
+EP03\\
+\hline
+TS06
+& 
+Definición de Modelo de Negocio y alcance 
+& 
+Como Developer quiero definir el modelo de negocio y el alcance completo del proyecto SIRAN para que el equipo cuente con una base alineada con los objetivos del producto antes de iniciar el desarrollo técnico. 
+& 
+Escenario 1: Validación de Business y Customer Assumptions en modelo de negocio\newline
+Given que se ha recopilado la información del problema neonatal, la solución propuesta y el proceso Lean UX,
+When se elabora el documento de modelo de negocio  
+Then el documento contiene las Business Assumptions y Customer Assumptions completas tal como se describen en la sección 1.2.2.2.\newline
+\newline
+Escenario 2: Especificación de fuentes de ingreso e indicadores de éxito\newline
+Given que se han definido las hipótesis de valor del producto,   
+When se documenta el modelo de negocio, 
+Then se especifican las posibles fuentes de ingresos y los indicadores de éxito esperados.\newline
+\newline
+Escenario 3: Definición de alcance funcional y no funcional por segmentos\newline
+Given que se han identificado los segmentos objetivo, 
+When se define el alcance del proyecto, 
+Then el documento incluye el alcance funcional y no funcional.
+& 
+EP06\\
+\hline
+TS07 
+& 
+Análisis de Necesidades y Realidad del Usuario 
+& 
+Como Developer, quiero documentar el análisis de necesidades y la realidad del usuario para que el equipo tenga claridad sobre el problema, los usuarios afectados y los requisitos prioritarios antes de diseñar la arquitectura técnica. 
+& 
+Escenario 1: Documentación del análisis de necesidades y Problem Statement\newline
+Given que se cuenta con la descripción del problema y las preguntas formuladas (5W´s y 2H´s)
+When se redacta el análisis de necesidades,  
+Then el documento incluye la tabla completa con las respuestas a cada pregunta y la Problem Statement del Lean UX\newline
+\newline
+Escenario 2: Documentación de necesidades por segmento objetivo\newline
+Given que se han identificado los segmentos objetivos 
+When se documenta la realidad del usuario,  
+Then se describen las necesidades específicas de cada segmento
+& 
+EP06\\
+\hline
+TS08
+& 
+Especificación de Requisitos 
+& 
+Como Developer, quiero especificar los requisitos funcionales y no funcionales del sistema para contar con una base clara que guíe el desarrollo del producto. 
+& 
+Escenario 1: Documentación de User Stories y criterios de aceptación\newline
+Given que se han identificado las necesidades de los usuarios y los segmentos objetivo,
+When se redactan los requisitos funcionales,
+Then el documento incluye User Stories con el formato y sus criterios de aceptación.\newline
+\newline
+Escenario 2: Definición de requisitos no funcionales\newline
+Given que se han identificado las características de calidad del sistema,
+When se documentan los requisitos,
+Then se incluyen requisitos no funcionales como seguridad, rendimiento, disponibilidad y escalabilidad. 
+& 
+EP06\\
+\hline
+TS09
+& 
+Diseño de Producto 
+& 
+Como Developer, quiero diseñar la arquitectura y la experiencia del producto para definir cómo funcionará el sistema antes de su implementación. 
+& 
+Escenario 1: Diseño de arquitectura del sistema\newline
+Given que se cuenta con los requisitos definidos,
+When se elabora el diseño técnico,
+Then se documenta la arquitectura del sistema incluyendo componentes, servicios y relaciones.\newline
+\newline
+Escenario 2: Diseño de interfaz y experiencia de usuario\newline
+Given que se han identificado los flujos principales del usuario,
+When se diseña el producto,
+Then se incluyen prototipos o wireframes que representan la interacción del usuario con el sistema. 
+& 
+EP06\\
+\hline
+TS10 
+& 
+Implementación de Producto, Validación y Deploy 
+& 
+Como Developer, quiero implementar, validar y desplegar el sistema para asegurar su funcionamiento y disponibilidad para los usuarios finales. 
+& 
+Escenario 1: Implementación de funcionalidades principales\newline
+Given que se cuenta con los requisitos y diseño definidos,
+When se desarrolla el sistema,
+Then se implementan las funcionalidades principales según las User Stories priorizadas.\newline
+\newline
+Escenario 2: Validación del sistema\newline
+Given que el sistema ha sido implementado,
+When se realizan pruebas funcionales,
+Then se verifica que las funcionalidades cumplen con los criterios de aceptación definidos. 
+& 
+EP06\\
 \hline
 \end{longtable}
 ```
