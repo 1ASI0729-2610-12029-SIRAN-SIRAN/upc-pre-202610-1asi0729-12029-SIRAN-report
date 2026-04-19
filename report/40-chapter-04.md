@@ -48,7 +48,212 @@
 
 ## 4.7. Software Object-Oriented Design
 
+El Diseño de Software Orientado a Objetos (OOD) es una metodología que busca la definición de los objetos y la manera que se relaciona con otros objetos, con la finalidad de mantener un diseño coherente y eficiente, al momento de escalar (Schmidt, 2018).
+
 ### 4.7.1. Class Diagrams
+
+```plantuml
+@startuml
+'//---ENUM---//
+enum Gender{
+- FEMALE
+- MALE
+}
+
+enum DeviceStatus{
+- ON
+- OFF
+- MAINTENANCE
+}
+
+enum FollowUpStatus{
+- ACTIVE
+- COMPLETED
+- CANCELLED
+}
+
+enum PaymentStatus{
+- PENDING
+- PAID
+- EXPIRED
+- CANCELLED
+}
+
+enum NotificationType{
+- CRITICAL_ALERT
+- REMINDER
+- SYSTEM_INFO
+}
+
+
+
+
+
+'//---ENTITIES---//
+entity Parents{
+* idParents: UUID
+- name: String
+- phoneNumber: String
+- email: String
+- babies: List<baby>
+- subscription: UserSubscription
+---
++ addBaby(baby: Baby): void
++ getActiveSubscription(): UserSubscription
+}
+
+entity Baby{
+* idBaby: UUID
+- name: String
+- birthday: LocalDate
+- gender: Gender
+- parent: Parents
+- device: Device
+- records: List<HealthRecord>
+---
++ calculatedAge(): int
++ getLastRecord(): HealthRecord
+}
+
+entity Medic{
+* idMedic: UUID
+- name: String
+- phoneNumber: String
+- email: String
+- followUps: List<FollowUp>
+---
++ createdAlertRange(config: AlertRange): void
+}
+
+entity Device{
+* idDevice: UUID
+- model: String
+- status: DeviceStatus
+- firmwareVersion: String
+---
++ syncData(): void
++ checkBattery(): int
+}
+
+entity HealthRecord{
+* idHealthRecord: UUID
+- temperature: Double
+- weight: Double
+- oxygenSaturation: Double
+- observation: String
+- createdAt: LocalDateTime
+- baby: Baby
+- device: Device
+- appliedRange: AlertRange
+---
++ isCriticValue(): boolean
+}
+
+entity HealthReport{
++ idReport: UUID
+- baby: Baby
+- generatedAt: LocalDateTime
+- summary: String
+- pdfURL: String
+- avgTemperature: Double
+- weightGain: Double
+---
++ generatedPDF(): void
++ calculatedStats(record: List<HealthRecord>): void
+}
+
+entity AlertRange{
+* idAlertRange: UUID
+- type: String
+- maxValue: Double
+- minValue: Double
+- description: String
+- createdBy: Medic
+---
++ getMaxValue(): Double
++ getMinValue(): Double
+}
+
+entity SubscriptionPlan {
+* idPlan: UUID
+- name: String
+- price: Double
+- feature: String
+---
++ getPlanDetails(): String
+}
+
+entity UserSubscription {
+* idUserSub: UUID
+- parents: Parents
+- plan: SubscriptionPlan
+- startDate: LocalDateTime
+- endDate: LocalDateTime
+- status: PaymentStatus
+---
++ isValid(): boolean
++ renewSubscription(): void
+}
+
+entity FollowUp {
+* idFollow: UUID
+- baby: Baby
+- medic: Medic
+- status: FollowUpStatus
+- startAt: LocalDateTime
+- endAt: LocalDateTime
+---
++ updateStatus(newsStatus: FollowUpStatus): void
++ getDurationInDays(): int
+}
+
+entity Notification {
+* idNotification: UUID
+- type: NotificationType
+- title: String
+- description: String
+- sendAt: LocalDateTime
+- readAt: LocalDateTime
+- isRead: boolean
+- parents: Parents
+- medic: Medic
+- record: HealthRecord
+---
++ markAsRead(): void
++ send(): void
+}
+
+'//---RELATIONSHIPS---//
+
+' Relaciones de Composición (Ciclo de vida dependiente)
+Parents "1" *-- "1..*" Baby
+Baby "1" *-- "0..*" HealthRecord
+Baby "1" *-- "0..*" HealthReport
+
+' Relaciones de Asociación y Agregación
+Parents "1" -- "1" UserSubscription
+UserSubscription "n" -- "1" SubscriptionPlan
+Baby "1" o-- "0..1" Device
+Medic "1" -- "0..*" FollowUp
+FollowUp "n" -- "1" Baby
+Medic "1" -- "0..*" AlertRange
+HealthRecord "n" -- "0..1" AlertRange
+Device "1" -- "0..*" HealthRecord
+
+' Relaciones con ENUMS (Uso de tipos)
+Baby ..> Gender : <<use>>
+Device ..> DeviceStatus : <<use>>
+FollowUp ..> FollowUpStatus : <<use>>
+UserSubscription ..> PaymentStatus : <<use>>
+Notification ..> NotificationType : <<use>>
+
+' Relaciones de Notificación
+Notification "n" -- "0..1" Parents
+Notification "n" -- "0..1" Medic
+Notification "n" -- "0..1" HealthRecord
+@enduml
+```
+
 
 ## 4.8. Database Design
 
@@ -84,7 +289,6 @@ entity Device {
   *idDevice: String <<PK>>
   --
   model: String
-  macAddress: String
   status: String
   firmwareVersion: String
   idBaby: String <<FK>>
