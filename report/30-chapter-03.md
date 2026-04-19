@@ -655,4 +655,6 @@ EP06\\
 
 ## 3.2. Impact Mapping
 
+![impact-mapping.jpg](assets/impact-mapping.jpeg)
+
 ## 3.3. Product Backlog
