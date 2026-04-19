@@ -48,7 +48,7 @@
 
 ## 4.7. Software Object-Oriented Design
 
-
+El Diseño de Software Orientado a Objetos (OOD) es una metodología que busca la definición de los objetos y la manera que se relaciona con otros objetos, con la finalidad de mantener un diseño coherente y eficiente, al momento de escalar (Schmidt, 2018).
 
 ### 4.7.1. Class Diagrams
 
