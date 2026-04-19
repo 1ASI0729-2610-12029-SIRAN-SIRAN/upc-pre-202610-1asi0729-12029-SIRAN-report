@@ -142,7 +142,7 @@ sabremos que esto es cierto cuando al menos el 20% de los usuarios activos consi
 
 #### 1.2.2.4. Lean UX Canvas
 
-![LeanUXCanva](assets/LeanUXCanva.png)
+![LeanUXCanva](assets/lean-ux-canvas.png)
 
 ## 1.3. Segmentos objetivo
 
