@@ -54,35 +54,41 @@ Preguntas complementarias:
 
 ### 2.2.2. Registro de entrevistas
 
-Segmento 01
+**Segmento 01: Padres primerizos**
 
-Segmento 01
+**Entrevistado:**
 
-Segmentos 02
+<img src="">
 
-- Gianella Bartolo
+link de la entrevista:()
 
-img src=(assets\entrevista1.png)
+**Entrevistado:**
 
-video:(https://youtu.be/Gd3YpLCCB5I)
+<img src="">
 
-La plataforma surge como una solución integral ante la ruptura comunicacional entre padres y médicos, diseñada específicamente para mitigar la ansiedad de los tutores y el agotamiento del personal encargado. A través de un módulo de comunicación mutua, se establece un ecosistema de alta transparencia que dignifica la interacción médico-paciente. Este módulo no solo profesionaliza el intercambio de información, sino que delimita un entorno controlado donde la fluidez de los datos garantiza una atención neonatal más serena y eficiente.
+link de la entrevista:()
 
-El contexto actual revela una problemática crítica: el uso de herramientas genéricas como WhatsApp satura los canales personales de los especialistas y desvirtúa el rigor clínico necesario en pediatría. Esta informalidad genera confusión, ya que los padres suelen tener dificultades para interpretar el lenguaje técnico sin una referencia visual clara: Dashboard. Al no estar estos medios vinculados a la base de datos del paciente, la falta de contexto inmediato solo incrementa la angustia familiar y la carga cognitiva del médico ante constantes llamados no estructurados.
+**Segmento 02: Medicos pediatras**
 
-Para resolver este conflicto, se implementará un canal de comunicación profesional de alto nivel, cuyo valor diferencial radica en la vinculación directa con el historial biométrico del bebé. Este módulo permite que el diálogo ocurra sobre datos reales y actualizados, facilitando que el médico brinde diagnósticos precisos sin sacrificar su privacidad personal. Al integrar la mensajería con la información del sistema IoT, SIRAN transforma la conversación en una herramienta clínica potente, transparente y estrictamente profesional.
+- **Entrevistada: Gianella Bartolo**
 
-Segmento 02
-- Brenda Morales
-La plataforma busca que el médico pueda leer la información de sus pacientes de forma rápida y sin complicaciones. Queremos que el especialista no pierda tiempo buscando entre datos irrelevantes, sino que tenga un panel organizado donde lo más importante aparezca primero. Así, el médico puede revisar el estado de muchos bebés en pocos minutos, mejorando su eficiencia diaria.
+<img src="assets\entrevista1.png">
 
-El problema actual es que los médicos reciben demasiadas notificaciones que no siempre son importantes, lo que genera confusión y cansancio. Cuando un aviso no es preciso, el médico puede ignorar una alerta que sí era urgente, y los padres sienten que no les están prestando atención. Esta falta de filtros hace que sea muy difícil distinguir entre un cambio normal y una emergencia real.
+link de la entrevista: (https://youtu.be/Gd3YpLCCB5I)
 
-Para solucionar esto, crearemos un sistema de notificaciones precisas que clasifica las alertas por niveles de urgencia. El médico recibirá avisos claros que le dirán exactamente qué parámetro está mal y le darán acceso directo a los datos del bebé. De esta manera, SIRAN asegura que el médico actúe rápido cuando realmente se necesita, haciendo que la comunicación sea útil y efectiva.
+- **Entrevistada:Brenda Morales**
+
+<img src="assets\entrevista2.png">
+
+link de la entrevista: (https://youtu.be/QB1eWHOD4HY)
+
+**Entrevistada: Victoria Diaz**
+
+<img src="assets\entrevista3.png">
+
+link de la entrevista: (https://youtu.be/AZpC2fzH1-8)
 
 ### 2.2.3. Análisis de entrevistas
-
-
 
 ## 2.3. Needfinding
 
