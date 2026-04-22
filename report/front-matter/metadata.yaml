@@ -2,116 +2,89 @@
 toc: true
 toc-depth: 3
 number-sections: true
-header-includes:
-  - \usepackage{graphicx}
-  - \usepackage{longtable}
-  - \usepackage{array}
-  - \usepackage{booktabs}
-  - \usepackage{xcolor}
-  - \usepackage{geometry}
-geometry:
-  - top=2.5cm
-  - bottom=2.5cm
-  - left=2.5cm
-  - right=2.5cm
-include-before: |
-  \begin{titlepage}
-  \centering
-  \includegraphics[width=0.3\textwidth]{./report/assets/upc-logo.png}
-  \vspace{1.5cm}
-  
-  {\small \textbf{Carrera:} Ingeniería de Software}
-  
-  \vspace{0.3cm}
-  
-  {\small \textbf{Periodo:} 2026-10}
-  
-  \vspace{0.3cm}
-  
-  {\small \textbf{Curso:} Desarrollo de Aplicaciones Open Source}
-  
-  \vspace{0.3cm}
-  
-  {\small \textbf{NRC:} 12029}
-  
-  \vspace{0.3cm}
-  
-  {\small \textbf{Profesor:} Mori Paiva, Hugo Allan}
-  
-  \vspace{1cm}
-  
-  {\Large \textbf{Informe de Trabajo Final}}
-  
-  \vspace{0.5cm}
-  
-  {\Large \textbf{Startup:} SIRAN}
-  
-  \vspace{0.5cm}
-  
-  {\Large \textbf{Producto:} SIRAN}
-  
-  \vspace{1.5cm}
-  
-  {\small \textbf{Miembros del grupo:}}
-  
-  \vspace{0.2cm}
-  
-  {\small Mendoza Moreano, Mariel Lucero - U20231A418}
-  
-  {\small Palomino Vilcañaupa, Daril Johan - U202317338}
-  
-  {\small Retuerto Rodriguez, Jorge Manuel - U202318612}
-  
-  {\small Said Conde, Yazid - U202312348}
-  
-  {\small Véliz Martínez, Diego Alonso - U20211B564}
-  
-  \vspace{1.5cm}
-  
-  {\large abril de 2026}
-  \end{titlepage}
-  
-  \newpage
 
-  \section*{Registro de Versiones}
+include-before: |
+  <div style="text-align:center; page-break-after: always;">
   
-  \begin{longtable}{|c|p{6cm}|p{8cm}|}
-  \hline
-  \textbf{Versión} & \textbf{Autores} & \textbf{Descripción} \\
-  \hline
-  \endfirsthead
-  \hline
-  \textbf{Versión} & \textbf{Autores} & \textbf{Descripción} \\
-  \hline
-  \endhead
-  TB1 & 
-  \begin{tabular}{@{}l@{}}
-  Mendoza Moreano, Mariel Lucero \\
-  Palomino Vilcañaupa, Daril Johan \\
-  Retuerto Rodriguez, Jorge Manuel \\
-  Said Conde, Yazid \\
-  Véliz Martínez, Diego Alonso
-  \end{tabular} &
-  \begin{tabular}{@{}l@{}}
-  - Capítulo I: Introducción \\
-  - Capítulo II: Requirements Elicitation \\
-  - Capítulo III: Requirements Specification \\
-  - Capítulo IV: Product Design \\
-  - Capítulo V: Implementation sprint 1 \\
-  - Conclusiones \\
-  - Recomendaciones
-  \end{tabular} \\
-  \hline
-  \caption{Historial de versiones del documento}
-  \end{longtable}
+    <img src="report/assets/upc-logo.png" style="width:200px;"/>
   
-  \newpage
+    <br/>
+    <br/>
   
-  \section*{Project Report Collaboration Insights}
+    <p>Carrera: Ingeniería de Software</p>
+    <p>Periodo: 2026-10</p>
+    <p>Curso: Desarrollo de Aplicaciones Open Source</p>
+    <p>NRC: 12029</p>
+    <p>Profesor: Mori Paiva, Hugo Allan</p>
+    <p>Informe de Trabajo Final</p>
+    <p>Startup: SIRAN</p>
+    <p>Producto: SIRAN</p>
   
-  A continuación, capturas del proceso, commits y elaboración de nuestro proyecto en cada entrega.
+    <br/>
   
-  \textbf{Entrega Nº1: TB1}
+    <p>Miembros de grupo:</p>
+    <p>Mendoza Moreano, Mariel Lucero - U20231A418</p>
+    <p>Palomino Vilcañaupa, Daril Johan - U202317338</p>
+    <p>Retuerto Rodriguez, Jorge Manuel - U202318612</p>
+    <p>Said Conde, Yazid - U202312348</p>
+    <p>Véliz Martínez, Diego Alonso - U20211B564</p>
   
-  \newpage
+    <br/>
+  
+    <p>abril de 2026</p>
+  
+  </div>
+  
+  <div></div>
+  
+  <h2>Registro de Versiones</h2>
+  
+  <table border="1">
+    <tr>
+      <th>
+        Version
+      </th>
+      <th>
+        Autores
+      </th>
+      <th>
+        Descripcion
+      </th>
+    </tr>
+    <tr>
+      <th>
+        TB1
+      </th>
+      <th>
+        Mendoza Moreano, Mariel Lucero<br/>
+        Palomino Vilcañaupa, Daril Johan<br/>
+        Retuerto Rodriguez, Jorge Manuel<br/>
+        Said Conde, Yazid<br/>
+        Véliz Martínez, Diego Alonso
+      </th>
+      <th>
+        Capítulo I: Introducción<br/>
+        Capítulo II: Requirements Elicitation<br/>
+        Capítulo III: Requirements Specification<br/>
+        Capítulo IV: Product Design<br/>
+        Capítulo V: Implementation sprint 1<br/>
+        Conclusiones<br/>
+        Recomendaciones
+      </th>
+    </tr>
+  </table>
+
+  <div></div>
+  
+  <div></div>
+  
+  <h2>Project Report Collaboration Insights</h2>
+  
+  <p>A continuación, capturas del procesos, commits y elaboración de nuestro proyecto en cada entrega.</p>
+  
+  <p>Entrega Nº1: TB1</p>
+  
+  <div></div>
+  
+  <h2 style="page-break-before: always;">Tabla de contenido</h2>
 ---
