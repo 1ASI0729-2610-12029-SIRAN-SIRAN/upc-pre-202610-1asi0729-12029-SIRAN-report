@@ -3,8 +3,100 @@
 ## 4.1. Style Guidelines
 
 ### 4.1.1. General Style Guidelines
+Branding:
+Para el logotipo de **SIRAN**, se ha optado por un diseño protector y clínico que refleja la seguridad de la aplicación. El logotipo se compone de una tipografía sólida y moderna, acompañada de un icono que simboliza el cuidado neonatal y el monitoreo constante, así como un escudo de protección. Los colores utilizados son tonos azules y celestes, lo que refuerza la idea de confianza, salud y tranquilidad.
+
+### Tipografía
+
+La tipografía de nuestra aplicación será fácilmente legible y estética. Se utilizará la fuente **Poppins** para botones y títulos, mientras que para los textos se empleará **Roboto**.
+
+El interlineado será de **1.15**, con un tamaño base de:
+- **18px** en la versión web
+- **16px** en la versión móvil
+
+### Pesos y estilos
+
+- **Heading 1**
+    - Poppins, Bold, 18px, Negro (#000000)
+    - Poppins, Normal, 18px, Blanco (#FFFFFF)
+
+- **Heading 2**
+    - Poppins, Normal, 16px, Rojo (#FF0000)
+    - Poppins, Normal, 16px, SkyBlue (#87CEEB)
+
+- **Heading 3**
+    - Poppins, Normal, 14px, LawnGreen (#7CFC00)
+
+- **Texto**
+    - Roboto, Bold, 11px, Rojo (#FF0000)
+    - Roboto, Normal, 9px, Blanco (#FFFFFF)
+
+
+### Colores
+
+Nuestra plataforma, al estar dirigida a centros de salud y atención neonatal, utiliza una paleta cromática que transmite confianza, cuidado y profesionalismo:
+
+- **#E3EDFF (azul lavanda pálido):** aporta calma y cercanía en testimonios.
+- **#FFFFFF (blanco):** representa limpieza y orden.
+- **#F2F2F2 (blanco grisáceo):** permite diferenciar secciones con sutileza.
+- **#4A7FF0 (azul brillante):** resalta elementos interactivos y fomenta la interacción.
+- **#000000 (negro):** asegura legibilidad y formalidad en los textos.
+- **#C0EEE3 (cian pastel):** transmite bienestar y armonía.
+- **#CDEBFF (celeste pastel):** refuerza la serenidad y la seguridad visual en la experiencia del usuario.
+
+---
+
+## Spacing
+
+El diseño de **SIRAN** destaca por un espacio amplio y regular que sirve como eje organizador. Esta apuesta por el “aire” entre elementos mejora la claridad informativa y proyecta una imagen de orden y estabilidad, haciendo que la interacción del usuario sea mucho más cómoda.
+
+### Escala de Espaciado (Spacing System)
+
+- **4px:** Micro-ajustes (iconos, etiquetas pequeñas).
+- **8px:** Espaciado interno entre elementos muy cercanos (título y subtítulo).
+- **12px:** Espaciado entre elementos de una lista o tarjetas pequeñas.
+- **16px:** Relleno (padding) interno estándar para botones y tarjetas.
+- **20px:** Espaciado entre bloques de texto cortos.
+- **24px:** Margen entre elementos de un mismo grupo (botones de planes).
+- **32px:** Espacio entre columnas o elementos secundarios.
+- **40px:** Margen superior/inferior para secciones pequeñas de contenido.
+- **48px:** Separación estándar entre secciones de información (testimonios).
+- **64px:** Espaciado generoso para resaltar el hero (cabecera).
+- **80px:** Margen de seguridad para respiración visual en dispositivos móviles.
+- **96px:** Separación amplia entre secciones principales (precios y beneficios).
+- **128px:** Margen superior/inferior para secciones de alto impacto visual.
+- **160px:** Espaciado máximo para secciones con mucho aire (capturas de pantalla).
+- **192px:** Margen de diseño para pantallas de escritorio extra anchas.
+- **256px:** Espaciado para composiciones artísticas o cierres de página.
+
+
+
+### Tono de Comunicación y Lenguaje
+
+Para **SIRAN**, la comunicación se sitúa en un equilibrio entre la autoridad clínica y la empatía humana:
+
+- **Serio:** El manejo de datos vitales de bebés exige rigor absoluto, transmitiendo precisión y responsabilidad.
+- **Formal:** Uso de lenguaje profesional que respete la relación médico-paciente y la institucionalidad.
+- **Respetuoso:** Reconoce la vulnerabilidad y preocupación de padres y personal médico.
+- **Sereno:** Transmite calma, control y seguridad en momentos de tensión.
+
+
+
+### Sustento de Principios y Orientación del Servicio
+
+La página está orientada como una extensión digital de la confianza clínica. Inspirada en sistemas de diseño como **Carbon Health** o **Spectrum (Adobe)**, se basa en:
+
+- **Claridad Operativa:** Reducción del ruido visual. La información crítica (alertas y signos) debe ser legible en segundos, priorizando la jerarquía visual para evitar fatiga cognitiva.
+- **Empatía Silenciosa:** Uso de espacios en blanco y paleta de azules suaves para reducir la ansiedad del usuario.
+- **Accesibilidad y Confiabilidad:** Enfoque en la consistencia, asegurando que iconos y mensajes sean predecibles y claros, eliminando ambigüedades.
+
+---
+
+> **"SIRAN se presenta como un ecosistema de vigilancia silenciosa y precisa, donde la tecnología se humaniza para ofrecer paz mental a través de una comunicación directa, experta y profundamente protectora."**
+
 
 ### 4.1.2. Web Style Guidelines
+
 
 ## 4.2. Information Architecture
 
