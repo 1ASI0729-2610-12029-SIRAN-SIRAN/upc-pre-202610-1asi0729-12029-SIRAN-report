@@ -1,84 +1,89 @@
----
 toc: true
 toc-depth: 3
 number-sections: true
-header-includes:
-  - \usepackage{graphicx}
+
 include-before: |
-  \begin{titlepage}
-  \centering
-  \includegraphics[width=0.4\textwidth]{./report/assets/upc-logo.png}
-  \vspace{2cm}
+  <div style="text-align:center; page-break-after: always;">
   
-  {\small Carerra: Ingeniería de Software}
+    <img src="report/assets/upc-logo.png" style="width:200px;"/>
   
-  {\small Periodo: 2026-10}
+    <br/>
+    <br/>
   
-  {\small Curso: Desarrollo de Aplicaciones Open Source}
+    <p>Carrera: Ingeniería de Software</p>
+    <p>Periodo: 2026-10</p>
+    <p>Curso: Desarrollo de Aplicaciones Open Source</p>
+    <p>NRC: 12029</p>
+    <p>Profesor: Mori Paiva, Hugo Allan</p>
+    <p>Informe de Trabajo Final</p>
+    <p>Startup: SIRAN</p>
+    <p>Producto: SIRAN</p>
   
-  {\small NRC: 12029}
+    <br/>
   
-  {\small Profesor: Mori Paiva, Hugo Allan}
+    <p>Miembros de grupo:</p>
+    <p>Mendoza Moreano, Mariel Lucero - U20231A418</p>
+    <p>Palomino Vilcañaupa, Daril Johan - U202317338</p>
+    <p>Retuerto Rodriguez, Jorge Manuel - U202318612</p>
+    <p>Said Conde, Yazid - U202312348</p>
+    <p>Véliz Martínez, Diego Alonso - U20211B564</p>
   
-  {\small Informe de Trabajo Final}
+    <br/>
   
-  {\small Startup: SIRAN}
+    <p>abril de 2026</p>
   
-  {\small Producto: SIRAN}
+  </div>
   
-  \vspace{1cm}
+  <div></div>
   
-  {\small Miembros de grupo:}
+  <h2>Registro de Versiones</h2>
   
-  {\small Mendoza Moreano, Mariel Lucero - U20231A418}
-  
-  {\small Palomino Vilcañaupa, Daril Johan - U202317338}
-  
-  {\small Retuerto Rodriguez, Jorge Manuel - U202318612}
-  
-  {\small Said Conde, Yazid - U202312348}
-  
-  {\small Véliz Martínez, Diego Alonso - U20211B564}
-  
-  \vspace{1cm}
-  
-  {\large abril de 2026}
-  \end{titlepage}
-  
-  \newpage
+  <table border="1">
+    <tr>
+      <th>
+        Version
+      </th>
+      <th>
+        Autores
+      </th>
+      <th>
+        Descripcion
+      </th>
+    </tr>
+    <tr>
+      <th>
+        TB1
+      </th>
+      <th>
+        Mendoza Moreano, Mariel Lucero<br/>
+        Palomino Vilcañaupa, Daril Johan<br/>
+        Retuerto Rodriguez, Jorge Manuel<br/>
+        Said Conde, Yazid<br/>
+        Véliz Martínez, Diego Alonso
+      </th>
+      <th>
+        Capítulo I: Introducción<br/>
+        Capítulo II: Requirements Elicitation<br/>
+        Capítulo III: Requirements Specification<br/>
+        Capítulo IV: Product Design<br/>
+        Capítulo V: Implementation sprint 1<br/>
+        Conclusiones<br/>
+        Recomendaciones
+      </th>
+    </tr>
+  </table>
 
-    \section*{Registro de Versiones}
-
-    \begin{tabular}{|c|p{4cm}|p{8cm}|}
-      \hline
-      Version & Autores & Descripcion\\
-      \hline
-      TB1 &
-      Mendoza Moreano, Mariel Lucero \par
-      Palomino Vilcañaupa, Daril Johan \par
-      Retuerto Rodriguez, Jorge Manuel \par
-      Said Conde, Yazid \par
-      Véliz Martínez, Diego Alonso &
-      - Capítulo I: Introducción \par
-      - Capítulo II: Requirements Elicitation \par
-      - Capítulo III: Requirements Specification \par
-      - Capítulo IV: Product Design \par
-      - Capítulo V: Implementation sprint 1 \par
-      - Conclusiones
-      - Recomendaciones
-      \\
-      \hline
-    \end{tabular}
-
-  \newpage
+  <div></div>
   
-  \newpage
+  <div></div>
   
-    \section*{Project Report Collaboration Insights}
+  <h2>Project Report Collaboration Insights</h2>
   
-    \large A continuación, capturas del procesos, commits y elaboración de nuestro proyecto en cada entrega.
-
-    \large Entrega Nº1: TB1
+  <p>A continuación, capturas del procesos, commits y elaboración de nuestro proyecto en cada entrega.</p>
   
-  \newpage
+  <p>Entrega Nº1: TB1</p>
+  
+  <div></div>
+  
+  <h2 style="page-break-before: always;">Tabla de contenido</h2>
 ---
