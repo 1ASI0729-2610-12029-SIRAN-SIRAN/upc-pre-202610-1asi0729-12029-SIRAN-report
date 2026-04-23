@@ -100,18 +100,162 @@ La página está orientada como una extensión digital de la confianza clínica.
 Para SIRAN, hemos diseñado una plataforma web bajo un enfoque de Diseño Adaptable (Responsive Web Design), garantizando que el monitoreo clínico y la información de salud sean accesibles y perfectamente legibles desde cualquier dispositivo, ya sea una tablet en clínica o un smartphone para los padres.
 Como equipo, hemos optado por incorporar el patrón de diseño en forma de F en nuestro sitio web. Esta técnica es ideal para páginas con carga de contenido informativo y servicios clínicos, ya que emula el comportamiento natural de lectura. Ubicamos el logotipo en la esquina superior izquierda para establecer identidad inmediata, seguido de un menú de navegación horizontal que culmina en un botón de acción (CTA) destacado en la esquina superior derecha para facilitar la conversión inmediata.
 
+
 ## 4.2. Information Architecture
 La arquitectura de la información de SIRAN ha sido diseñada con el objetivo de organizar el contenido de manera clara, estructurada y centrada en el usuario, permitiendo una navegación intuitiva tanto para padres como para el personal médico. Esta estructura facilita el acceso rápido a información crítica relacionada con el monitoreo neonatal, reduciendo la carga cognitiva y mejorando la experiencia de uso.
 
 ### 4.2.1. Organization Systems
+<table>
+  <thead>
+    <tr>
+      <th>Tópico</th>
+      <th>Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Home</strong></td>
+      <td>La página de inicio que ofrece una vista general de la clínica, destacando nuestra misión de cuidar a los más pequeños con ternura y tecnología.</td>
+    </tr>
+    <tr>
+      <td><strong>Beneficios</strong></td>
+      <td>La sección que destaca los pilares de valor del servicio, como la tecnología neonatal avanzada.</td>
+    </tr>
+    <tr>
+      <td><strong>Testimonios</strong></td>
+      <td>La sección que presenta experiencias reales de padres, brindando confianza y tranquilidad sobre la salud de sus hijos.</td>
+    </tr>
+    <tr>
+      <td><strong>Planes</strong></td>
+      <td>La sección que detalla las opciones de suscripción y niveles de atención, permitiendo comparar funciones y costos según cada necesidad.</td>
+    </tr>
+    <tr>
+      <td><strong>Empezar</strong></td>
+      <td>El botón de acción destacado que redirige al usuario para iniciar su registro o contratar el plan de salud seleccionado de inmediato.</td>
+    </tr>
+  </tbody>
+</table>
+
+****Seccion Planes de Suscripcion:****
+
+<table>
+  <thead>
+    <tr>
+      <th>Tópico</th>
+      <th>Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Catálogo de membresías</strong></td>
+      <td>Este apartado presenta de forma clara todas las opciones de suscripción disponibles para el monitoreo y cuidado del bebé.</td>
+    </tr>
+    <tr>
+      <td><strong>Especificaciones del servicio</strong></td>
+      <td>Aquí se desglosan las características, coberturas y beneficios particulares que incluye cada nivel de atención de SIRAN.</td>
+    </tr>
+  </tbody>
+</table>
+
+****Seccion Planes de Testimonios:****
+
+<table>
+  <thead>
+    <tr>
+      <th>Tópico</th>
+      <th>Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Panel de experiencias</strong></td>
+      <td>El sitio presentará una selección destacada con los encabezados de los testimonios más recientes compartidos por las familias.</td>
+    </tr>
+  </tbody>
+</table>
+
+Menú Superior Estructurado: Se implementa una barra de navegación fija y homogénea que permite al usuario desplazarse con fluidez entre los módulos clave de la plataforma sin perder el contexto.
+
+Adaptabilidad Multiplataforma: La interfaz emplea un diseño flexible que ajusta automáticamente su composición y elementos visuales, garantizando una experiencia de uso intuitiva y funcional tanto en computadoras como en dispositivos móviles.
 
 ### 4.2.2. Labeling Systems
 
+Para la organización de la interfaz, se ha implementado un sistema de etiquetado basado en encabezados descriptivos que agrupan lógicamente el contenido. Esta estructura permite que el usuario identifique de forma inmediata la función de cada sección, reduciendo la incertidumbre y facilitando la navegación mediante clics precisos
+
+<table>
+  <thead>
+    <tr>
+      <th>Tópico</th>
+      <th>Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Home</strong></td>
+      <td>Punto de acceso principal y presentación de la propuesta de valor de la clínica de monitoreo neonatal.</td>
+    </tr>
+    <tr>
+      <td><strong>Planes</strong></td>
+      <td>Sección donde se detallan las coberturas, beneficios clínicos y tarifas vigentes para la suscripción al servicio.</td>
+    </tr>
+    <tr>
+      <td><strong>Testimonios</strong></td>
+      <td>Espacio dedicado a la validación social, donde se exhiben las experiencias y valoraciones de las familias atendidas.</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Para **SIRAN**, las meta etiquetas son fundamentales para garantizar que nuestra plataforma de monitoreo sea indexada correctamente por los motores de búsqueda, permitiendo que las familias y clínicas nos encuentren bajo criterios de seguridad y cuidado infantil. Estas etiquetas optimizan el análisis de nuestro código HTML y fortalecen la autoridad digital del proyecto.
+
+*   **Título (Title Tag):** Representa el nombre principal de la página que aparece en las pestañas del navegador y resultados de búsqueda.
+
+    *   _Definición:_ "SIRAN | Monitoreo Neonatal Inteligente y Cuidado Pediátrico"
+
+    *   _Objetivo:_ Captar la atención mediante una promesa de valor clara y profesional.
+
+*   **Codificación de caracteres (Charset):** Se ha implementado el estándar UTF-8.
+
+    *   _Justificación técnica:_ Garantiza la visualización correcta de caracteres especiales (como tildes y eñes) propios del idioma español, optimizando además el uso de memoria para los navegadores y asegurando que el contenido clínico se lea sin errores en cualquier región.
+
+*   **Descripción (Meta Description):** Esta etiqueta ofrece un resumen ejecutivo del servicio.
+
+    *   _Contenido:_ "Cuidamos de los más pequeños con ternura y tecnología avanzada. Descubre nuestro sistema de monitoreo neonatal con alertas en tiempo real y atención pediátrica experta."
+
+    *   _Objetivo:_ Comunicar confianza al usuario.
+
+*   **Palabras clave (Keywords):** Se han seleccionado términos estratégicos de alta relevancia para nuestro nicho.
+
+    *   _Términos:_ monitoreo neonatal, salud infantil, tecnología médica, clínica pediátrica, alertas médicas, SIRAN, cuidado del bebé.
+
+*   **Autor y derechos de autor (Author & Copyright):** Se utiliza para registrar la propiedad intelectual del software y la autoría del equipo de desarrollo.
+
+    *   _Responsables:_ Establece a **"Equipo SIRAN"** como los responsables legales y creativos del contenido y la plataforma.
 
 ### 4.2.4. Searching Systems
 
+El motor de búsqueda de SIRAN es una herramienta crítica diseñada para que los padres y el personal médico localicen servicios, especialistas o información de salud de manera inmediata y precisa.
+
+- Búsqueda por Necesidad Clínica: Los usuarios podrán realizar búsquedas basadas en el estado o requerimiento del lactante, ya sea para monitoreo preventivo, consultas de nutrición neonatal o seguimiento de signos vitales.
+
+- Búsqueda por Especialidad: Permite localizar profesionales de la salud por su área de experticia específica, tales como: neonatología, cardiología pediátrica, especialistas en lactancia o urgencias pediátricas.
+
+- Resultados de Alta Relevancia: El sistema prioriza los resultados basándose en la urgencia y el historial de salud del paciente, ordenando la información de manera que las soluciones más críticas o mejor valoradas aparezcan en primer lugar.
+
 ### 4.2.5. Navigation Systems
+
+El **Sistema de Navegación** constituye el marco estructural que garantiza un desplazamiento intuitivo y fluido de los usuarios a través de los diversos módulos y pantallas de la plataforma. Su diseño está orientado a minimizar el número de clics necesarios para acceder a la información crítica del paciente.
+
+ * **Jerarquía de Navegación:** El sistema se organiza mediante las siguientes secciones fundamentales, integradas de forma persistente en la barra de navegación superior para asegurar una orientación constante dentro del ecosistema digital.
+
+*   Home
+
+*   Beneficios
+
+*   Testimonios
+
+*   Planes
 
 ## 4.3. Landing Page UI Design
 
