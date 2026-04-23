@@ -259,7 +259,19 @@ El **Sistema de Navegación** constituye el marco estructural que garantiza un d
 
 ## 4.3. Landing Page UI Design
 
+El diseño de la interfaz de usuario de landing se desarrolló a partir de las decisiones definidas en la arquitectura de información, asegurando la estructura clara y centrada en el usuario.
+
+Con base en ello, se diseñó una interfaz coherente y enfocada al usuario, aplicando una paleta de colores suaves. Además, se tomó en cuenta la experiencia del usuario garantizando accesibilidad, facilidad de uso y la adaptación a distintos dispositivos móviles.
+
 ### 4.3.1. Landing Page Wireframe
+
+#### Landing Page para Desktop Web Browser
+
+En este apartado se describe la estructura del sitio de nuestro proyecto. Con el fin de proporcionar una visión más clara del contenido que estará disponible en la plataforma.
+Header (Encabezado):
+Ubicado en la parte superior, contiene el logotipo  y el menú de navegación (Home, Beneficios, Testimonios, Planes). Su función es permitir el acceso rápido a las secciones principales sin perder el contexto.
+
+
 
 ### 4.3.2. Landing Page Mock-up.
 
