@@ -268,8 +268,53 @@ Con base en ello, se diseñó una interfaz coherente y enfocada al usuario, apli
 #### Landing Page para Desktop Web Browser
 
 En este apartado se describe la estructura del sitio de nuestro proyecto. Con el fin de proporcionar una visión más clara del contenido que estará disponible en la plataforma.
-Header (Encabezado):
-Ubicado en la parte superior, contiene el logotipo  y el menú de navegación (Home, Beneficios, Testimonios, Planes). Su función es permitir el acceso rápido a las secciones principales sin perder el contexto.
+
+**Header (Encabezado):**
+Ubicado en la parte superior, contiene el logotipo y el menú de navegación (Home, Beneficios, Testimonios, Planes). Su función es permitir el acceso rápido a las secciones principales sin perder el contexto.
+
+![](assets/wireframe1-header.png)
+
+**Sección principal:**
+
+Es la primera sección visible. Incluye un mensaje principal, una breve descripción y un botón CTA como “Prueba Demo”. Su función es captar la atención del usuario e interactuar con la plataforma.
+
+![](assets/wireframe-principal.png)
+
+**Sección de Beneficios:**
+
+Presenta las ventajas principales del sistema (monitoreo en tiempo real, seguridad,
+tecnología médica.
+
+![](assets/wireframe-benefits.png)
+
+**Sección de Testimonios:**
+
+Muestra la experiencia de usuarios como padres o pediatras. Su función es generar
+confianza a otros usuarios.
+
+![](assets/wireframe-testimonials.png)
+
+**Sección de Precio y Planes:**
+
+Se detallan los distintos tipos de suscripciones disponibles para el usuario. Su funcion es
+permitir al usuario comparar los diferentes planes.
+
+![](assets/wireframe-prices-plans.png)
+
+**Sección Capturas de Pantalla:**
+
+Se muestran evidencias visuales del uso de nuestra aplicación. Su función informar al usuario de cómo se emplea nuestra aplicación.
+
+![](assets/wireframe-screenshots.png)
+
+**Sección Desarrolladores:**
+Se mostrarán los encargados de haber desarrollado la aplicación.
+
+![](assets/wireframe-creators.png)
+
+**Footer:**
+Contiene información adicional como contactos, enlaces secundarios o derechos de autor.
+Su función es cerrar la navegación y ofrecer información complementaria.
 
 
 
