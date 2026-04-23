@@ -316,7 +316,7 @@ Se mostrarán los encargados de haber desarrollado la aplicación.
 Contiene información adicional como contactos, enlaces secundarios o derechos de autor.
 Su función es cerrar la navegación y ofrecer información complementaria.
 
-
+![](assets/wireframe-footer.png)
 
 ### 4.3.2. Landing Page Mock-up.
 
