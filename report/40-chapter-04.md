@@ -90,15 +90,18 @@ La página está orientada como una extensión digital de la confianza clínica.
 - **Empatía Silenciosa:** Uso de espacios en blanco y paleta de azules suaves para reducir la ansiedad del usuario.
 - **Accesibilidad y Confiabilidad:** Enfoque en la consistencia, asegurando que iconos y mensajes sean predecibles y claros, eliminando ambigüedades.
 
----
+
 
 > **"SIRAN se presenta como un ecosistema de vigilancia silenciosa y precisa, donde la tecnología se humaniza para ofrecer paz mental a través de una comunicación directa, experta y profundamente protectora."**
 
 
 ### 4.1.2. Web Style Guidelines
 
+Para SIRAN, hemos diseñado una plataforma web bajo un enfoque de Diseño Adaptable (Responsive Web Design), garantizando que el monitoreo clínico y la información de salud sean accesibles y perfectamente legibles desde cualquier dispositivo, ya sea una tablet en clínica o un smartphone para los padres.
+Como equipo, hemos optado por incorporar el patrón de diseño en forma de F en nuestro sitio web. Esta técnica es ideal para páginas con carga de contenido informativo y servicios clínicos, ya que emula el comportamiento natural de lectura. Ubicamos el logotipo en la esquina superior izquierda para establecer identidad inmediata, seguido de un menú de navegación horizontal que culmina en un botón de acción (CTA) destacado en la esquina superior derecha para facilitar la conversión inmediata.
 
 ## 4.2. Information Architecture
+La arquitectura de la información de SIRAN ha sido diseñada con el objetivo de organizar el contenido de manera clara, estructurada y centrada en el usuario, permitiendo una navegación intuitiva tanto para padres como para el personal médico. Esta estructura facilita el acceso rápido a información crítica relacionada con el monitoreo neonatal, reduciendo la carga cognitiva y mejorando la experiencia de uso.
 
 ### 4.2.1. Organization Systems
 
