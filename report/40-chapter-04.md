@@ -268,12 +268,103 @@ Con base en ello, se diseñó una interfaz coherente y enfocada al usuario, apli
 #### Landing Page para Desktop Web Browser
 
 En este apartado se describe la estructura del sitio de nuestro proyecto. Con el fin de proporcionar una visión más clara del contenido que estará disponible en la plataforma.
-Header (Encabezado):
-Ubicado en la parte superior, contiene el logotipo  y el menú de navegación (Home, Beneficios, Testimonios, Planes). Su función es permitir el acceso rápido a las secciones principales sin perder el contexto.
 
+**Header (Encabezado):**
+Ubicado en la parte superior, contiene el logotipo y el menú de navegación (Home, Beneficios, Testimonios, Planes). Su función es permitir el acceso rápido a las secciones principales sin perder el contexto.
 
+![](assets/wireframe1-header.png)
+
+**Sección principal:**
+
+Es la primera sección visible. Incluye un mensaje principal, una breve descripción y un botón CTA como “Prueba Demo”. Su función es captar la atención del usuario e interactuar con la plataforma.
+
+![](assets/wireframe-principal.png)
+
+**Sección de Beneficios:**
+
+Presenta las ventajas principales del sistema (monitoreo en tiempo real, seguridad,
+tecnología médica.
+
+![](assets/wireframe-benefits.png)
+
+**Sección de Testimonios:**
+
+Muestra la experiencia de usuarios como padres o pediatras. Su función es generar
+confianza a otros usuarios.
+
+![](assets/wireframe-testimonials.png)
+
+**Sección de Precio y Planes:**
+
+Se detallan los distintos tipos de suscripciones disponibles para el usuario. Su funcion es
+permitir al usuario comparar los diferentes planes.
+
+![](assets/wireframe-prices-plans.png)
+
+**Sección Capturas de Pantalla:**
+
+Se muestran evidencias visuales del uso de nuestra aplicación. Su función informar al usuario de cómo se emplea nuestra aplicación.
+
+![](assets/wireframe-screenshots.png)
+
+**Sección Desarrolladores:**
+Se mostrarán los encargados de haber desarrollado la aplicación.
+
+![](assets/wireframe-creators.png)
+
+**Footer:**
+Contiene información adicional como contactos, enlaces secundarios o derechos de autor.
+
+Su función es cerrar la navegación y ofrecer información complementaria.
+
+![](assets/wireframe-footer.png)
 
 ### 4.3.2. Landing Page Mock-up.
+
+Sección Encabezado:
+
+Presenta un diseño limpio de fondo blanco, logotipo de SIRAN en
+tono azules ubicado en la parte izquierda del menú de navegación y en el derecha (Home,
+Beneficios, Testimonios y Planes), acompañado del botón destacado.
+
+
+Sección Principal:
+
+Sección destacada con fondo grisáceo, un título principal en tipografía
+Poppins, texto descriptivos en tipografía Roboto y un botón en azul.. Se incluye una imagen
+representativa
+
+
+Sección Beneficios:
+
+Se organiza en columnas con tarjetas que contiene iconos, título y
+descripciones cortas, utilizando un fondo azul lavanda en las tarjetas y un fondo blanco
+principal.
+
+
+Sección Testimonios: 
+
+Tarjetas con fondo celeste pastel que contiene opiniones de usuarios,
+nombres e imágenes.
+
+Sección Planes: 
+
+Tarjetas alineadas horizontalmente que presentan los planes de
+suscripción, con precios, características y botones. Se puede destacar un plan con color
+diferente.
+
+Seccion Capturas de Pantalla: 
+
+Presentación visuales de nuestra aplicación con diferentes
+usuarios como los pediatras o padres.
+
+
+Seccion de Desarrolladores:
+
+Se muestran a los encargados de haber desarrollado la
+aplicación.
+
+
 
 ## 4.4. Web Applications UX/UI Design
 
