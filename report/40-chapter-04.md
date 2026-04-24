@@ -327,13 +327,15 @@ Presenta un diseño limpio de fondo blanco, logotipo de SIRAN en
 tono azules ubicado en la parte izquierda del menú de navegación y en el derecha (Home,
 Beneficios, Testimonios y Planes), acompañado del botón destacado.
 
+![](assets/mockup-header.png)
 
 **Sección Principal:**
 
 Sección destacada con fondo grisáceo, un título principal en tipografía
 Poppins, texto descriptivos en tipografía Roboto y un botón en azul.. Se incluye una imagen
-representativa
+representativa.
 
+![](assets/mockup-principal.png)
 
 **Sección Beneficios:**
 
@@ -341,11 +343,14 @@ Se organiza en columnas con tarjetas que contiene iconos, título y
 descripciones cortas, utilizando un fondo azul lavanda en las tarjetas y un fondo blanco
 principal.
 
+![](assets/mockup-benefits.png)
 
 **Sección Testimonios:**
 
 Tarjetas con fondo celeste pastel que contiene opiniones de usuarios,
 nombres e imágenes.
+
+![](assets/mockup-testimonials.png)
 
 **Sección Planes:**
 
@@ -353,18 +358,26 @@ Tarjetas alineadas horizontalmente que presentan los planes de
 suscripción, con precios, características y botones. Se puede destacar un plan con color
 diferente.
 
+![](assets/mockup-prices-plans.png)
+
 **Sección Capturas de Pantalla:**
 
 Presentación visuales de nuestra aplicación con diferentes
 usuarios como los pediatras o padres.
 
+![](assets/mockup-screenshots.png)
 
 **Sección de Desarrolladores:**
 
 Se muestran a los encargados de haber desarrollado la
 aplicación.
 
+![](assets/mockup-creators.png)
 
+**Sección Footer:**
+Sección final con fondo blanco y celeste pastel, que incluye información adicional, enlaces y derechos de autor. Además de presentar enlaces a instagram y facebook.
+
+![](assets/mockup-footer.png)
 
 ## 4.4. Web Applications UX/UI Design
 
