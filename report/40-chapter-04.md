@@ -321,45 +321,45 @@ Su función es cerrar la navegación y ofrecer información complementaria.
 
 ### 4.3.2. Landing Page Mock-up.
 
-Sección Encabezado:
+**Sección Encabezado:**
 
 Presenta un diseño limpio de fondo blanco, logotipo de SIRAN en
 tono azules ubicado en la parte izquierda del menú de navegación y en el derecha (Home,
 Beneficios, Testimonios y Planes), acompañado del botón destacado.
 
 
-Sección Principal:
+**Sección Principal:**
 
 Sección destacada con fondo grisáceo, un título principal en tipografía
 Poppins, texto descriptivos en tipografía Roboto y un botón en azul.. Se incluye una imagen
 representativa
 
 
-Sección Beneficios:
+**Sección Beneficios:**
 
 Se organiza en columnas con tarjetas que contiene iconos, título y
 descripciones cortas, utilizando un fondo azul lavanda en las tarjetas y un fondo blanco
 principal.
 
 
-Sección Testimonios: 
+**Sección Testimonios:**
 
 Tarjetas con fondo celeste pastel que contiene opiniones de usuarios,
 nombres e imágenes.
 
-Sección Planes: 
+**Sección Planes:**
 
 Tarjetas alineadas horizontalmente que presentan los planes de
 suscripción, con precios, características y botones. Se puede destacar un plan con color
 diferente.
 
-Seccion Capturas de Pantalla: 
+**Sección Capturas de Pantalla:**
 
 Presentación visuales de nuestra aplicación con diferentes
 usuarios como los pediatras o padres.
 
 
-Seccion de Desarrolladores:
+**Sección de Desarrolladores:**
 
 Se muestran a los encargados de haber desarrollado la
 aplicación.
