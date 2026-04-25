@@ -400,7 +400,15 @@ Debido a las limitaciones presentes en el documento, se prefirió no documentar 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-PONER EVIDENCIA DE RAMA LANDING y REPORT
+Registro de evidencia de ramas de trabajo en Report:
+
+<img src="assets/network-1-sprint-01.png" alt="">
+
+<img src="assets/network-2-sprint-01.png" alt="">
+
+<img src="assets/network-3-sprint-01.png" alt="">
+
+La evidencia del trabajo de ramas presenta una desactualización en el progreso, pues GitHub renderiza el gráfico de avance dejando de 24 a 48 horas. Se recomienda ver la rama actualizada usando el vínculo que se encuentra en el Anexo 3.
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
