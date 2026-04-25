@@ -4,189 +4,124 @@
 
 ### 2.1.1. Análisis competitivo
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-        }
-        th, td {
-            border: 1px solid #333;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-        }
-        .category-header {
-            background-color: #f2f2f2;
-            font-weight: bold;
-            width: 120px;
-        }
-        .brand-logo {
-            display: block;
-            margin: 0 auto 5px;
-            max-height: 50px;
-            width: auto;
-        }
-        .brand-name {
-            display: block;
-            text-align: center;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-
 <table>
-    <thead>
-        <tr>
-            <th colspan="6">Competitive Analysis Landscape</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td colspan="2" class="category-header">¿Por qué llevar a cabo este análisis?</td>
-            <td colspan="4">El objetivo de este análisis es identificar las características de los competidores en el monitoreo neonatal y encontrar maneras de diferenciar a SIRAN mediante la precisión clínica y la conexión directa médico-padre.</td>
-        </tr>
-        <tr>
-            <td colspan="2" rowspan="2" class="category-header">Startup y Competidores</td>
-            <td>Nuestra Startup</td>
-            <td>Philips Avent</td>
-            <td>Huckleberry</td>
-            <td>Glow Baby</td>
-        </tr>
-        <tr>
-            <td>
-              
-                <span class="brand-name">SIRAN</span>
-            </td>
-            <td>
-                <img src="https://philips-digital.com/wp-content/uploads/2018/10/hero.png" class="brand-logo">
-                <span class="brand-name">Baby+</span>
-            </td>
-            <td>
-                <img src="https://mma.prnewswire.com/media/1678259/Huckleberry_Logo.jpg?p=publish" class="brand-logo">
-                <span class="brand-name">Huckleberry</span>
-            </td>
-            <td>
-                <img src="https://corporettemoms.com/wp-content/uploads/Nursing-Postpartum-Tuesday-7.jpg" class="brand-logo">
-                <span class="brand-name">Glow Baby</span>
-            </td>
-        </tr>
-
-        <tr>
-            <td rowspan="2" class="category-header">Perfil</td>
-            <td>Overview</td>
-            <td>Sistema inteligente de registro y alerta neonatal para monitoreo clínico preventivo.</td>
-            <td>App integral de seguimiento del desarrollo respaldada por Philips.</td>
-            <td>App especializada en gestión del sueño mediante algoritmos.</td>
-            <td>Plataforma de registro colaborativo con enfoque en comunidad.</td>
-        </tr>
-        <tr>
-            <td>Ventaja competitiva</td>
-            <td>Alertas médicas reales, reportes técnicos y reducción de fatiga de alarmas.</td>
-            <td>Respaldo de marca global y guías de expertos.</td>
-            <td>Algoritmo de sueño de alta precisión predictiva.</td>
-            <td>Sincronización en la nube para múltiples cuidadores.</td>
-        </tr>
-
-        <tr>
-            <td rowspan="2" class="category-header">Marketing</td>
-            <td>Mercado objetivo</td>
-            <td>Padres con necesidad de monitoreo clínico y pediatras.</td>
-            <td>Padres primerizos buscando marca de confianza.</td>
-            <td>Padres enfocados en hábitos de sueño y rutinas.</td>
-            <td>Padres digitales que valoran lo social y colaborativo.</td>
-        </tr>
-        <tr>
-            <td>Estrategias</td>
-            <td>Alianzas B2B con clínicas y marketing de contenido técnico.</td>
-            <td>SEO agresivo y bundles con productos físicos.</td>
-            <td>Influencer marketing y pruebas premium.</td>
-            <td>Publicidad en redes y gamificación del registro.</td>
-        </tr>
-
-        <tr>
-            <td rowspan="3" class="category-header">Producto</td>
-            <td>Productos & Servicios</td>
-            <td>Registro de signos vitales, alertas y reportes PDF.</td>
-            <td>Diario de alimentación y seguimiento de hitos.</td>
-            <td>Análisis de sueño y asesoría personalizada.</td>
-            <td>Registro de pañales y foro comunitario.</td>
-        </tr>
-        <tr>
-            <td>Precios & Costos</td>
-            <td>SaaS escalable: Gratis, S/ 60.00 y S/ 99.90.</td>
-            <td>Gratis (Freemium).</td>
-            <td>Suscripción Premium (~$15/mes).</td>
-            <td>Freemium con publicidad o suscripción.</td>
-        </tr>
-        <tr>
-            <td>Canales</td>
-            <td>Web responsive y App móvil nativa.</td>
-            <td>App Store y Google Play.</td>
-            <td>App Store y Google Play.</td>
-            <td>App Store y Google Play.</td>
-        </tr>
-
-        <tr>
-            <td rowspan="4" class="category-header">SWOT</td>
-            <td>Fortalezas</td>
-            <td>Enfoque clínico y diseño centrado en la tranquilidad.</td>
-            <td>Gran base de usuarios y contenido de calidad.</td>
-            <td>Especialización en sueño y alta retención.</td>
-            <td>Sentido de comunidad y uso colaborativo.</td>
-        </tr>
-        <tr>
-            <td>Debilidades</td>
-            <td>Etapa inicial y necesidad de validación clínica.</td>
-            <td>Muy generalista, no detecta emergencias.</td>
-            <td>Interfaz abrumadora y enfoque limitado.</td>
-            <td>Exceso de publicidad y dudas de privacidad.</td>
-        </tr>
-        <tr>
-            <td>Oportunidades</td>
-            <td>Alianzas con seguros y telemedicina.</td>
-            <td>Integración con hardware IoT propio.</td>
-            <td>Expandirse a otros problemas de conducta.</td>
-            <td>Marketplace de productos integrado.</td>
-        </tr>
-        <tr>
-            <td>Amenazas</td>
-            <td>Regulaciones de datos médicos estrictas.</td>
-            <td>Nuevas apps hiper-especializadas.</td>
-            <td>Cambios en políticas de App Store.</td>
-            <td>Migración a redes sociales gratuitas.</td>
-        </tr>
-
-        <tr>
-            <td rowspan="2" class="category-header">Costos</td>
-            <td>Anual</td>
-            <td>S/ 0.00 - S/ 1,198.80</td>
-            <td>Gratis / Freemium</td>
-            <td>~$180 USD</td>
-            <td>Gratis / $60 USD</td>
-        </tr>
-        <tr>
-            <td>Mensual</td>
-            <td>S/ 0.00 - S/ 99.90</td>
-            <td>S/ 0.00</td>
-            <td>~$15 USD</td>
-            <td>S/ 0.00 - $8.99 USD</td>
-        </tr>
-    </tbody>
+  <tr>
+    <th colspan="6" valign="top">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="4" valign="top">El objetivo de este análisis es identificar las características de los competidores en el monitoreo neonatal y encontrar maneras de diferenciar a SIRAN mediante la precisión clínica y la conexión directa médico-padre.</td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2" valign="top">Startup y Competidores</td>
+    <td valign="top">Nuestra Startup</td>
+    <td valign="top">Baby+ (Philips Avent)</td>
+    <td valign="top">Huckleberry</td>
+    <td valign="top">Glow Baby</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>SIRAN</b></td>
+    <td valign="top"><b>Baby+</b></td>
+    <td valign="top"><b>Huckleberry</b></td>
+    <td valign="top"><b>Glow Baby</b></td>
+   </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil</td>
+    <td valign="top">Overview</td>
+    <td valign="top">Sistema inteligente de registro y alerta neonatal diseñado para el monitoreo clínico preventivo y la detección temprana de anomalías fisiológicas en recién nacidos.</td>
+    <td valign="top">Aplicación integral de seguimiento del desarrollo del bebé respaldada por una marca líder global en puericultura.</td>
+    <td valign="top">App especializada en la gestión del sueño y rutinas del bebé mediante algoritmos predictivos de descanso.</td>
+    <td valign="top">Plataforma de registro colaborativo con un fuerte enfoque en comunidad y apoyo entre padres jóvenes.</td>
+  </tr>
+  <tr>
+    <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td valign="top">Alertas basadas en parámetros médicos reales, reportes técnicos exportables para pediatras y reducción de fatiga por falsas alarmas.</td>
+    <td valign="top">Respaldo de marca Philips, guías de expertos y herramientas visuales de hitos del desarrollo físico.</td>
+    <td valign="top">Algoritmo de sueño de alta precisión que predice la "ventana de sueño" ideal del neonato.</td>
+    <td valign="top">Sincronización en la nube para múltiples cuidadores (padres, abuelos, nannies) y comunidad activa.</td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil de Marketing</td>
+    <td valign="top">Mercado objetivo</td>
+    <td valign="top">Padres que requieren monitoreo clínico preventivo, clínicas neonatales y pediatras particulares que buscan datos objetivos.</td>
+    <td valign="top">Padres primerizos que buscan una solución integral de una marca de confianza tradicional.</td>
+    <td valign="top">Padres preocupados específicamente por los hábitos de sueño y la organización de rutinas diarias.</td>
+    <td valign="top">Padres jóvenes y digitales que valoran la interacción social y el registro compartido simple.</td>
+  </tr>
+  <tr>
+    <td valign="top">Estrategias de marketing</td>
+    <td valign="top">Alianzas con centros de salud (B2B), marketing de contenido sobre salud neonatal especializada y demostraciones de precisión clínica.</td>
+    <td valign="top">SEO agresivo, branding de marca global y paquetes con productos físicos (biberones, monitores).</td>
+    <td valign="top">Influencer marketing, pruebas gratuitas de la versión Premium y enfoque en "bienestar familiar".</td>
+    <td valign="top">Publicidad en redes sociales, gamificación del registro diario y marketing de comunidad.</td>
+  </tr>
+  <tr>
+    <td rowspan="3" valign="top">Perfil de Producto</td>
+    <td valign="top">Productos & Servicios</td>
+    <td valign="top">Registro de signos vitales, motor de alertas inteligentes, reportes médicos PDF, acceso multiplataforma sincronizado.</td>
+    <td valign="top">Diario de alimentación, seguimiento de hitos, artículos de expertos, álbum de fotos digital.</td>
+    <td valign="top">Análisis de sueño, recordatorios de rutinas, asesoría de sueño personalizada (Plan Premium).</td>
+    <td valign="top">Registro de pañales y comidas, foro comunitario, seguimiento gráfico de crecimiento.</td>
+  </tr>
+  <tr>
+    <td valign="top">Precios & Costos</td>
+    <td valign="top">SaaS con suscripción mensual para padres; planes de licenciamiento por volumen para clínicas neonatales.</td>
+    <td valign="top">Gratuito (Modelo Freemium con venta de productos físicos adicionales).</td>
+    <td valign="top">Suscripción Premium (aprox. $15 USD mensuales).</td>
+    <td valign="top">Freemium con publicidad o suscripción mensual para eliminar anuncios.</td>
+  </tr>
+  <tr>
+    <td valign="top">Canales de distribución (Web y/o Móvil)</td>
+    <td valign="top">Web responsive para PC y tablets, aplicación móvil nativa. Integración con APIs de gestión hospitalaria.</td>
+    <td valign="top">Aplicación móvil (App Store y Google Play).</td>
+    <td valign="top">Aplicación móvil (App Store y Google Play).</td>
+    <td valign="top">Aplicación móvil (App Store y Google Play).</td>
+  </tr>
+  <tr>
+    <td rowspan="4" valign="top">Análisis SWOT</td>
+    <td valign="top">Fortalezas</td>
+    <td valign="top">Enfoque clínico especializado, interoperabilidad con médicos, diseño centrado en la tranquilidad basada en datos.</td>
+    <td valign="top">Gran base de usuarios instalada, contenido educativo de alta calidad avalado.</td>
+    <td valign="top">Especialización única en sueño, alta retención de usuarios por efectividad del algoritmo.</td>
+    <td valign="top">Fuerte sentido de comunidad, facilidad de uso colaborativo entre varios usuarios.</td>
+  </tr>
+  <tr>
+    <td valign="top">Debilidades</td>
+    <td valign="top">Etapa inicial de desarrollo, necesidad de validación clínica rigurosa y permisos sanitarios.</td>
+    <td valign="top">Enfoque muy generalista, no diseñado para detectar emergencias médicas críticas.</td>
+    <td valign="top">Enfoque limitado casi exclusivamente a rutinas, la interfaz puede ser abrumadora para el registro.</td>
+    <td valign="top">Exceso de publicidad en versión gratuita, preocupaciones de privacidad en la comunidad.</td>
+  </tr>
+  <tr>
+    <td valign="top">Oportunidades</td>
+    <td valign="top">Alianzas con seguros de salud privados y expansión a servicios de telemedicina neonatal directa.</td>
+    <td valign="top">Integración con hardware IoT propio (monitores de respiración inteligentes).</td>
+    <td valign="top">Expandirse a otros problemas de comportamiento infantil y nutrición temprana.</td>
+    <td valign="top">Monetización mediante un marketplace integrado de productos para bebés.</td>
+  </tr>
+  <tr>
+    <td valign="top">Amenazas</td>
+    <td valign="top">Regulaciones estrictas de datos de salud sensible, competencia de dispositivos wearables médicos certificados.</td>
+    <td valign="top">Nuevas aplicaciones hiper-especializadas que fragmenten su mercado masivo.</td>
+    <td valign="top">Cambios en políticas de privacidad de las tiendas de aplicaciones (Apple/Google).</td>
+    <td valign="top">Migración de usuarios a grupos de redes sociales gratuitos con funciones similares.</td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Precios y costos</td>
+    <td valign="top">Costo Anual</td>
+    <td valign="top">Desde S/ 540* (Suscripción Pro)</td>
+    <td valign="top">Gratis / Freemium</td>
+    <td valign="top">~$180 USD (~S/ 680)</td>
+    <td valign="top">Gratis / $60 USD suscripción</td>
+  </tr>
+  <tr>
+    <td valign="top">Mensual</td>
+    <td valign="top">Desde S/ 45</td>
+    <td valign="top">S/ 0</td>
+    <td valign="top">~$15 USD (~S/ 57)</td>
+    <td valign="top">S/ 0 / $8.99 USD</td>
+  </tr>
 </table>
-
-</body>
-</html>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
