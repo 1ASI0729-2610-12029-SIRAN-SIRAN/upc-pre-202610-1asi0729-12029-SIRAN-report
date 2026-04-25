@@ -283,7 +283,7 @@ Es la primera sección visible. Incluye un mensaje principal, una breve descripc
 **Sección de Beneficios:**
 
 Presenta las ventajas principales del sistema (monitoreo en tiempo real, seguridad,
-tecnología médica.
+tecnología médica).
 
 ![](assets/wireframe-benefits.png)
 
@@ -324,7 +324,7 @@ Su función es cerrar la navegación y ofrecer información complementaria.
 **Sección Encabezado:**
 
 Presenta un diseño limpio de fondo blanco, logotipo de SIRAN en
-tono azules ubicado en la parte izquierda del menú de navegación y en el derecha (Home,
+tono azules ubicado en la parte izquierda del menú de navegación y a la derecha (Home,
 Beneficios, Testimonios y Planes), acompañado del botón destacado.
 
 ![](assets/mockup-header.png)
@@ -332,7 +332,7 @@ Beneficios, Testimonios y Planes), acompañado del botón destacado.
 **Sección Principal:**
 
 Sección destacada con fondo grisáceo, un título principal en tipografía
-Poppins, texto descriptivos en tipografía Roboto y un botón en azul.. Se incluye una imagen
+Poppins, texto descriptivos en tipografía Roboto y un botón en azul. Se incluye una imagen
 representativa.
 
 ![](assets/mockup-principal.png)
@@ -401,7 +401,7 @@ La sesión de Design-Level Event Storming se realizó con el objetivo de refinar
 
 El desarrollo del proceso se puede visualizar en el siguiente enlace: [\[Design-Level Event Storming\]](https://miro.com/welcomeonboard/S3prRGpYUVAyQ0xMdEMwRWVFZGlrR00xK1h1bVJCcmtzMTBTcTRRSU8xaDU3U0FGMmhhUWZYUjlVTGZBOWtSQlBPeWM3MFFDcXRKMENUS09EMVBXaWNvSGxRd0xpNHM3TEF0Wm5IVUZEVG02L21tbkNMKytMeWxTSjNjelNVVk93VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=94854798151)
 
-1. Bounded Context IAM:
+**1. Bounded Context IAM:**
 
 El bounded context Identity and Access Management se encarga de gestionar la identidad digital de los usuarios y controlar el acceso seguro a la plataforma. Su responsabilidad principal es garantizar que únicamente usuarios autenticados y autorizados puedan interactuar con las funcionalidades del sistema.
 
@@ -409,7 +409,7 @@ Este contexto administra procesos como el registro de usuarios, autenticación, 
 
 ![](assets/bounded-iam.png)
 
-2. Bounded Context Subscriptions and Payment Management:
+**2. Bounded Context Subscriptions and Payment Management:**
 
 El bounded context Subscriptions and Payment Management gestiona todo lo relacionado con los modelos de suscripción y los procesos de pago dentro de la plataforma. Su objetivo es permitir que los usuarios accedan a diferentes niveles de servicio según el plan seleccionado.
 
@@ -417,47 +417,54 @@ Este contexto administra la visualización de planes, la activación de suscripc
 
 ![](assets/bounded-suscription.png)
 
-3. Bounded Context Profiles and Preferences Management
+**3. Bounded Context Profiles and Preferences Management**
 
 El bounded context Profiles and Preferences Management se encarga de la gestión de la información del usuario y de la configuración personalizada del sistema. Su propósito es adaptar el comportamiento de la plataforma a las características específicas de cada usuario y del neonato. Incluye la administración de perfiles, parámetros clínicos configurables y preferencias de notificación. Este contexto permite ajustar el sistema a diferentes escenarios, asegurando que las alertas y recomendaciones sean coherentes con las condiciones particulares de cada caso.
 
 ![](assets/bounded-profile.png)
 
-4. Bounded Context Service Design and Planning:
+**4. Bounded Context Service Design and Planning:**
 
 El bounded context Service Design and Planning se enfoca en la planificación del seguimiento clínico y la estructuración de las acciones que guían el monitoreo del neonato.Su objetivo es organizar de manera lógica y anticipada las actividades necesarias para el cuidado continuo. Este contexto permite definir esquemas de seguimiento, establecer prioridades de atención y estructurar recomendaciones basadas en el estado del neonato. Actúa como un componente estratégico que orienta la toma de decisiones y coordina las acciones dentro del sistema.
 
 ![](assets/bounded-service.png)
 
-5. Bounded Context Resource and Asset Management:
+**5. Bounded Context Resource and Asset Management:**
 
 El bounded context Resource and Asset Management gestiona los recursos de información generados dentro de la plataforma, especialmente los datos clínicos y registros asociados al neonato. Su finalidad es garantizar la correcta organización, almacenamiento y disponibilidad de la información. Incluye la administración de registros de salud, observaciones y documentos clínicos. Este contexto asegura la trazabilidad de los datos a lo largo del tiempo, permitiendo su consulta,análisis y reutilización en diferentes procesos del sistema.
 
 ![](assets/bounded-resource.png)
 
-6. Bounded Context Service Execution and Monitoring:
+**6. Bounded Context Service Execution and Monitoring:**
 
 El bounded context Service Execution and Monitoring constituye el núcleo operativo del sistema, donde se ejecuta el monitoreo continuo del estado del neonato. Su responsabilidad es procesar los datos registrados, evaluar su validez y detectar posibles anomalías. Este contexto se encarga de la validación de parámetros, la generación de alertas y la gestión de eventos críticos. Además, coordina la comunicación de resultados hacia otros contextos, permitiendo una respuesta oportuna ante situaciones de riesgo.
 
 ![](assets/bounded-monitoring.png)
 
-7. Bounded Context Dashboard and Analytics:
+**7. Bounded Context Dashboard and Analytics:**
 
 El bounded context Dashboard and Analytics se encarga de transformar los datos registrados en información significativa para los usuarios. Su objetivo es facilitar la interpretación del estado del neonato mediante visualizaciones claras y análisis comprensibles. Incluye la generación de reportes, resúmenes y representaciones gráficas de la evolución del bebé. Este contexto permite identificar patrones, tendencias y comportamientos relevantes que apoyan la toma de decisiones tanto de padres como de profesionales de la salud.
 
 ![](assets/bounded-dashboard.png)
 
-8. Bounded Context Loyalty and Engagement:
+**8. Bounded Context Loyalty and Engagement:**
 
 El bounded context Loyalty and Engagement está orientado a la interacción inicial ycontinua con los usuarios, especialmente en la etapa de captación y generación deconfianza. Su propósito es comunicar el valor de la plataforma y fomentar la adopción delsistema. Este contexto gestiona la presentación de beneficios, contenido informativo y elementos que fortalecen la credibilidad del producto. Además, contribuye a mejorar la experiencia delusuario, incentivando su permanencia y uso continuo de la plataforma.
 
 ![](assets/bounded-loyalty.png)
 
+----
 ### 4.6.2. Software Architecture Context Diagram
+
+![](assets/context-diagram.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+![](assets/containers-diagram.png)
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+![](assets/component-diagram.png)
 
 ## 4.7. Software Object-Oriented Design
 
