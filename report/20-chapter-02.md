@@ -56,17 +56,18 @@ Preguntas complementarias:
 
 **Segmento 01: Padres primerizos**
 
-**Entrevistado:**
+**Entrevistado: Manuel Alcántara**
 
-<img src="">
+<img src="assets\entrevista4.png">
 
-link de la entrevista:()
+Manuel dedica las 24 horas del día a monitorear, alimentar y hacer dormir a su bebé. Expresa que la falta de experiencia genera una sensación incontrolable de incertidumbre, especialmente al no saber identificar las causas del llanto o malestar del neonato. No utiliza herramientas digitales especializadas y registra los eventos en un chat de WhatsApp con su pareja, lo cual considera tedioso e inexacto debido al cansancio. En las consultas médicas, solo reporta "lo que se acuerda" en el momento. Valora positivamente una herramienta con botones grandes y poco texto que le ahorre tiempo y esfuerzo.
 
-**Entrevistado:**
+**Entrevistado: Gabriel Satornicio**
 
-<img src="">
+<img src="assets\entrevista5.png">
 
-link de la entrevista:()
+Gabriel, padre primerizo, describe los primeros días tras el alta como una experiencia caótica y desordenada debido a la falta de horarios fijos y la constante atención que requiere el bebé. Actualmente monitorea la salud del neonato de forma subjetiva ("al ojo"), observando la alimentación y la respiración. Confiesa haber sentido inseguridad ante posibles anomalías respiratorias, teniendo que recurrir a internet por falta de datos objetivos. No utiliza aplicaciones digitales y comunica la salud al pediatra basándose únicamente en su interpretación personal de los síntomas, lo que resulta impreciso. Estaría muy dispuesto a usar SIRAN si está validada por médicos y no es invasiva para el bebé.
+
 
 **Segmento 02: Medicos pediatras**
 
@@ -74,21 +75,55 @@ link de la entrevista:()
 
 <img src="assets\entrevista1.png">
 
-link de la entrevista: (https://youtu.be/Gd3YpLCCB5I)
+Gianella coincide en que la información de los padres suele ser anecdótica y ocultar datos relevantes por descuido. Dedica entre 5 y 10 minutos de cada consulta solo a tratar de reconstruir el historial reciente del bebé. Aunque usa sistemas de gestión hospitalaria (HIS/EHR), advierte que la integración con apps externas debe ser sencilla para evitar el "doble trabajo" de copiar datos manualmente. Recomienda que la interfaz para padres sea sumamente práctica y clara para asegurar la calidad del registro.
 
-- **Entrevistada:Brenda Morales**
+
+- **Entrevistada: Brenda Morales**
 
 <img src="assets\entrevista2.png">
 
-link de la entrevista: (https://youtu.be/QB1eWHOD4HY)
+Brenda recalca que la precisión en el registro del peso y las tomas de leche es vital para evitar deshidrataciones post-alta. Ha presenciado casos donde un mal registro de los padres derivó en ingresos por emergencia a los pocos días del alta. Indica que un sistema de alertas sería ideal si permite filtrar la gravedad (ej. una alerta roja por fiebre de 38°C vs. una duda menor). Prefiere reportes en formato de gráficos y tablas para una interpretación visual rápida de las tendencias fisiológicas.
+
 
 **Entrevistada: Victoria Diaz**
 
 <img src="assets\entrevista3.png">
 
-link de la entrevista: (https://youtu.be/AZpC2fzH1-8)
+Victoria solicita datos sobre alimentación, sueño, diuresis y fiebre, pero indica que la información rara vez es completa porque los padres olvidan detalles u omiten observaciones críticas. Esto la obliga a basar su valoración inicial en datos inexactos que luego debe corroborar con el examen clínico. Utiliza WhatsApp para emergencias, pero no le resulta satisfactorio para el seguimiento. Considera imprescindibles los gráficos de peso, temperatura y frecuencia cardíaca. Afirma que una herramienta automática como SIRAN ayudaría al personal de salud a optimizar su tiempo para atender a más recién nacidos.
 
 ### 2.2.3. Análisis de entrevistas
+
+El presente análisis consolida los hallazgos obtenidos de las 5 entrevistas realizadas. Se han identificado patrones comunes tanto objetivos  como subjetivos. 
+
+**Segmento 1: Padres de Familia** 
+Basado en las entrevistas a Gabriel Satornicio y Manuel Alcántara, se determinan las siguientes características representativas:
+
+A. Características Objetivas 
+Método de registro : El total de los entrevistados del segmento padres reconoce no utilizar aplicaciones móviles especializadas. Utilizan métodos analógicos (memoria) o herramientas genéricas como chats de WhatsApp para anotar eventos, lo que resulta en información fragmentada.
+
+Monitoreo de salud : El monitoreo se realiza de forma visual y subjetiva. Se centran principalmente en la alimentación, el llanto y la temperatura al tacto, sin herramientas de precisión clínica.
+
+Comunicación con el pediatra : La información se transmite de forma verbal y basada en el recuerdo del momento, admitiendo una alta probabilidad de omitir detalles por el cansancio.
+
+B. Características Subjetivas 
+Estado emocional predominante : Se identifica un alto nivel de incertidumbre y ansiedad. Los padres primerizos describen el periodo post-alta como "caótico", sintiéndose desprotegidos al no tener la vigilancia constante de la clínica.
+
+Motivación : Existe una disposición total a adoptar tecnología como SIRAN, siempre que esta sea validada por profesionales y ofrezca una interfaz simplificada ("pocos textos, botones grandes") debido al agotamiento físico de los cuidadores.
+
+**Segmento 2: Médicos Pediatras / Neonatólogos** 
+Basado en las entrevistas a la Dra. Victoria Díaz,la Dr. Brenda y la Dra. Gianella Bartolo, se concluye lo siguiente:
+
+A. Características Objetivas 
+Calidad de la información recibida (100%): El 100% de los especialistas afirma que la información provista por los padres es incompleta o anecdótica.
+
+Tiempo de triaje (66%): La mayoría de los médicos indica que deben dedicar entre 5 a 10 minutos adicionales de la consulta solo para intentar reconstruir el historial clínico del bebé debido a la falta de registros confiables.
+
+Herramientas de preferencia (100%): Los expertos demandan visualizaciones de datos en forma de gráficos de tendencias (peso, saturación y temperatura) sobre reportes narrativos.
+
+B. Características Subjetivas 
+Preocupación por seguridad (100%): Los médicos consideran que la falta de registros precisos post-alta es un factor de riesgo crítico que puede derivar en reingresos hospitalarios por deshidratación o complicaciones respiratorias no detectadas a tiempo.
+
+Valoración de la solución (100%): Perciben a SIRAN como una herramienta de optimización de tiempo. Consideran que un sistema de alertas filtrado por gravedad mejoraría drásticamente la capacidad de respuesta médica remota.
 
 ## 2.3. Needfinding
 
