@@ -6,6 +6,8 @@
 Branding:
 Para el logotipo de **SIRAN**, se ha optado por un diseño protector y clínico que refleja la seguridad de la aplicación. El logotipo se compone de una tipografía sólida y moderna, acompañada de un icono que simboliza el cuidado neonatal y el monitoreo constante, así como un escudo de protección. Los colores utilizados son tonos azules y celestes, lo que refuerza la idea de confianza, salud y tranquilidad.
 
+
+
 ### Tipografía
 
 La tipografía de nuestra aplicación será fácilmente legible y estética. Se utilizará la fuente **Poppins** para botones y títulos, mientras que para los textos se empleará **Roboto**.
@@ -272,52 +274,52 @@ En este apartado se describe la estructura del sitio de nuestro proyecto. Con el
 **Header (Encabezado):**
 Ubicado en la parte superior, contiene el logotipo y el menú de navegación (Home, Beneficios, Testimonios, Planes). Su función es permitir el acceso rápido a las secciones principales sin perder el contexto.
 
-![](assets/wireframe1-header.png)
+![](/report/assets/wireframe1-header.png)
 
 **Sección principal:**
 
 Es la primera sección visible. Incluye un mensaje principal, una breve descripción y un botón CTA como “Prueba Demo”. Su función es captar la atención del usuario e interactuar con la plataforma.
 
-![](assets/wireframe-principal.png)
+![](/report/assets/wireframe-principal.png)
 
 **Sección de Beneficios:**
 
 Presenta las ventajas principales del sistema (monitoreo en tiempo real, seguridad,
 tecnología médica).
 
-![](assets/wireframe-benefits.png)
+![](/report/assets/wireframe-benefits.png)
 
 **Sección de Testimonios:**
 
 Muestra la experiencia de usuarios como padres o pediatras. Su función es generar
 confianza a otros usuarios.
 
-![](assets/wireframe-testimonials.png)
+![](/report/assets/wireframe-testimonials.png)
 
 **Sección de Precio y Planes:**
 
 Se detallan los distintos tipos de suscripciones disponibles para el usuario. Su funcion es
 permitir al usuario comparar los diferentes planes.
 
-![](assets/wireframe-prices-plans.png)
+![](/report/assets/wireframe-prices-plans.png)
 
 **Sección Capturas de Pantalla:**
 
 Se muestran evidencias visuales del uso de nuestra aplicación. Su función informar al usuario de cómo se emplea nuestra aplicación.
 
-![](assets/wireframe-screenshots.png)
+![](/report/assets/wireframe-screenshots.png)
 
 **Sección Desarrolladores:**
 Se mostrarán los encargados de haber desarrollado la aplicación.
 
-![](assets/wireframe-creators.png)
+![](/report/assets/wireframe-creators.png)
 
 **Footer:**
 Contiene información adicional como contactos, enlaces secundarios o derechos de autor.
 
 Su función es cerrar la navegación y ofrecer información complementaria.
 
-![](assets/wireframe-footer.png)
+![](/report/assets/wireframe-footer.png)
 
 ### 4.3.2. Landing Page Mock-up.
 
@@ -335,7 +337,7 @@ Sección destacada con fondo grisáceo, un título principal en tipografía
 Poppins, texto descriptivos en tipografía Roboto y un botón en azul. Se incluye una imagen
 representativa.
 
-![](assets/mockup-principal.png)
+![](/report/assets/mockup-principal.png)
 
 **Sección Beneficios:**
 
@@ -343,14 +345,14 @@ Se organiza en columnas con tarjetas que contiene iconos, título y
 descripciones cortas, utilizando un fondo azul lavanda en las tarjetas y un fondo blanco
 principal.
 
-![](assets/mockup-benefits.png)
+![](/report/assets/mockup-benefits.png)
 
 **Sección Testimonios:**
 
 Tarjetas con fondo celeste pastel que contiene opiniones de usuarios,
 nombres e imágenes.
 
-![](assets/mockup-testimonials.png)
+![](/report/assets/mockup-testimonials.png)
 
 **Sección Planes:**
 
@@ -358,7 +360,7 @@ Tarjetas alineadas horizontalmente que presentan los planes de
 suscripción, con precios, características y botones. Se puede destacar un plan con color
 diferente.
 
-![](assets/mockup-prices-plans.png)
+![](/report/assets/mockup-prices-plans.png)
 
 **Sección Capturas de Pantalla:**
 
@@ -383,9 +385,37 @@ Sección final con fondo blanco y celeste pastel, que incluye información adici
 
 ### 4.4.1. Web Applications Wireframes
 
+En esta sección se presentan los esquemas visuales de baja fidelidad (wireframes) del sistema **SIRAN**. Estos diseños tienen como propósito establecer la estructura de información, la jerarquía de los elementos críticos y el flujo de navegación entre los módulos principales, tales como el registro de datos clínicos, la gestión de alertas en tiempo real y el panel de seguimiento neonatal.
+
+<img src="/report/assets/wireframe-login1.png" alt="Wireframe de Login" />
+<img src="/report/assets/wireframe-register1.png" alt="Wireframe de Registro" />
+<img src="/report/assets/wireframe-dashboard.png" alt="Wireframe del Dashboard" />
+<img src="/report/assets/wireframe-baby.png" alt="Wireframe de Registro de Bebé" />
+<img src="/report/assets/wireframe-personal.png" alt="Wireframe de Perfil Personal" />
+<img src="/report/assets/wireframe-feeding.png" alt="Wireframe de Registro de Alimentación" />
+<img src="/report/assets/wireframe-report.png" alt="Wireframe de Reportes" />
+<img src="/report/assets/wireframe-config.png" alt="Wireframe de Configuración" />
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+Esta sección expone los wireflows de la plataforma, los cuales fusionan el diseño estructural de las pantallas con el flujo de navegación del usuario. Su finalidad es ilustrar paso a paso la experiencia de interacción, mostrando cómo cada interacción del usuario deriva en una respuesta específica del sistema.
+
+<img src="/report/assets/wireflow-diagram.png" alt="" />
+
+
+
 ### 4.4.3. Web Applications Mock-ups
+
+
+<img src="/report/assets/mockup-login.png" alt="Pantalla de inicio de sesión" />
+<img src="/report/assets/mockup-register.png" alt="Pantalla de registro" />
+<img src="/report/assets/mockup-dashboard.png" alt="Pantalla principal (Dashboard)" />
+<img src="/report/assets/mockup-baby.png" alt="Pantalla de registro del bebé" />
+<img src="/report/assets/mockup-personal.png" alt="Perfil del usuario" />
+<img src="/report/assets/mockup-feeding.png" alt="Registro de alimentación" />
+<img src="/report/assets/mockup-report.png" alt="Pantalla de reportes" />
+<img src="/report/assets/mockup-config.png" alt="Pantalla de configuración" />
+
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
