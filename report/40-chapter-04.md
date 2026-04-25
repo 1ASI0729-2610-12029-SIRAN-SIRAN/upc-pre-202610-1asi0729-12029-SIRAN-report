@@ -423,7 +423,7 @@ En esta sección se presentan los esquemas visuales de baja fidelidad (wireframe
 
 En esta sección se presentan los esquemas visuales de baja fidelidad (wireframes) de la aplicación web SIRAN. El propósito de estos diseños es establecer la arquitectura de la información, la jerarquía de los componentes en la interfaz y la lógica de navegación entre los diversos módulos del sistema, tales como el registro neonatal, el monitoreo de constantes vitales y el sistema de alertas.
 
-<img src="/report/assets/flow-diagram.png" alt="" />
+<img src="/report/assets/flow-diagram.png" alt="1" />
 
 
 ## 4.5. Web Applications Prototyping
