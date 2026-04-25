@@ -272,52 +272,54 @@ En este apartado se describe la estructura del sitio de nuestro proyecto. Con el
 **Header (Encabezado):**
 Ubicado en la parte superior, contiene el logotipo y el menú de navegación (Home, Beneficios, Testimonios, Planes). Su función es permitir el acceso rápido a las secciones principales sin perder el contexto.
 
-![](assets/wireframe1-header.png)
+<img src="/report/assets/wireframe1-header.png" alt="" />
 
 **Sección principal:**
 
 Es la primera sección visible. Incluye un mensaje principal, una breve descripción y un botón CTA como “Prueba Demo”. Su función es captar la atención del usuario e interactuar con la plataforma.
 
-![](assets/wireframe-principal.png)
+<img src="/report/assets/wireframe-principal.png" alt="" />
 
 **Sección de Beneficios:**
 
 Presenta las ventajas principales del sistema (monitoreo en tiempo real, seguridad,
 tecnología médica.
 
-![](assets/wireframe-benefits.png)
+<img src="/report/assets/wireframe-benefits.png" alt="" />
 
 **Sección de Testimonios:**
 
 Muestra la experiencia de usuarios como padres o pediatras. Su función es generar
 confianza a otros usuarios.
 
-![](assets/wireframe-testimonials.png)
+<img src="/report/assets/wireframe-testimonials.png" alt="" />
 
 **Sección de Precio y Planes:**
 
 Se detallan los distintos tipos de suscripciones disponibles para el usuario. Su funcion es
 permitir al usuario comparar los diferentes planes.
 
-![](assets/wireframe-prices-plans.png)
+<img src="/report/assets/wireframe-prices-plans.png" alt="" />
 
 **Sección Capturas de Pantalla:**
 
 Se muestran evidencias visuales del uso de nuestra aplicación. Su función informar al usuario de cómo se emplea nuestra aplicación.
 
-![](assets/wireframe-screenshots.png)
+<img src="/report/assets/wireframe-screenshots.png" alt="" />
 
 **Sección Desarrolladores:**
+
 Se mostrarán los encargados de haber desarrollado la aplicación.
 
-![](assets/wireframe-creators.png)
+<img src="/report/assets/wireframe-creators.png" alt="" />
 
 **Footer:**
+
 Contiene información adicional como contactos, enlaces secundarios o derechos de autor.
 
 Su función es cerrar la navegación y ofrecer información complementaria.
 
-![](assets/wireframe-footer.png)
+<img src="/report/assets/wireframe-footer.png" alt="" />
 
 ### 4.3.2. Landing Page Mock-up.
 
@@ -327,7 +329,7 @@ Presenta un diseño limpio de fondo blanco, logotipo de SIRAN en
 tono azules ubicado en la parte izquierda del menú de navegación y en el derecha (Home,
 Beneficios, Testimonios y Planes), acompañado del botón destacado.
 
-![](assets/mockup-header.png)
+<img src="/report/assets/mockup-header.png" alt="" />
 
 **Sección Principal:**
 
@@ -335,7 +337,7 @@ Sección destacada con fondo grisáceo, un título principal en tipografía
 Poppins, texto descriptivos en tipografía Roboto y un botón en azul.. Se incluye una imagen
 representativa.
 
-![](assets/mockup-principal.png)
+<img src="/report/assets/mockup-principal.png" alt="" />
 
 **Sección Beneficios:**
 
@@ -343,14 +345,14 @@ Se organiza en columnas con tarjetas que contiene iconos, título y
 descripciones cortas, utilizando un fondo azul lavanda en las tarjetas y un fondo blanco
 principal.
 
-![](assets/mockup-benefits.png)
+<img src="/report/assets/mockup-benefits.png" alt="" />
 
 **Sección Testimonios:**
 
 Tarjetas con fondo celeste pastel que contiene opiniones de usuarios,
 nombres e imágenes.
 
-![](assets/mockup-testimonials.png)
+<img src="/report/assets/mockup-testimonials.png" alt="" />
 
 **Sección Planes:**
 
@@ -358,26 +360,26 @@ Tarjetas alineadas horizontalmente que presentan los planes de
 suscripción, con precios, características y botones. Se puede destacar un plan con color
 diferente.
 
-![](assets/mockup-prices-plans.png)
+<img src="/report/assets/mockup-prices-plans.png" alt="" />
 
 **Sección Capturas de Pantalla:**
 
 Presentación visuales de nuestra aplicación con diferentes
 usuarios como los pediatras o padres.
 
-![](assets/mockup-screenshots.png)
+<img src="/report/assets/mockup-screenshots.png" alt="" />
 
 **Sección de Desarrolladores:**
 
 Se muestran a los encargados de haber desarrollado la
 aplicación.
 
-![](assets/mockup-creators.png)
+<img src="/report/assets/mockup-creators.png" alt="" />
 
 **Sección Footer:**
 Sección final con fondo blanco y celeste pastel, que incluye información adicional, enlaces y derechos de autor. Además de presentar enlaces a instagram y facebook.
 
-![](assets/mockup-footer.png)
+<img src="/report/assets/mockup-footer.png" alt="" />
 
 ## 4.4. Web Applications UX/UI Design
 
