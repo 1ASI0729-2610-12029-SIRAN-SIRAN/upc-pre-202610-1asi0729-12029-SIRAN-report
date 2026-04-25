@@ -399,7 +399,7 @@ En esta sección se presentan los esquemas visuales de baja fidelidad (wireframe
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-Esta sección expone los wireflows de la plataforma, los cuales fusionan el diseño estructural de las pantallas con el flujo de navegación del usuario. Su finalidad es ilustrar paso a paso la experiencia de interacción, mostrando cómo cada interacción del usuario deriva en una respuesta específica del sistema.
+En esta sección se presentan los esquemas visuales de baja fidelidad (wireframes) de la aplicación web **SIRAN**. El propósito de estos diseños es establecer la arquitectura de la información, la jerarquía de los componentes en la interfaz y la lógica de navegación entre los diversos módulos del sistema, tales como el registro neonatal, el monitoreo de constantes vitales y el sistema de alertas.
 
 <img src="/report/assets/wireflow-diagram.png" alt="" />
 
@@ -419,6 +419,11 @@ Esta sección expone los wireflows de la plataforma, los cuales fusionan el dise
 
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+En esta sección se presentan los esquemas visuales de baja fidelidad (wireframes) de la aplicación web SIRAN. El propósito de estos diseños es establecer la arquitectura de la información, la jerarquía de los componentes en la interfaz y la lógica de navegación entre los diversos módulos del sistema, tales como el registro neonatal, el monitoreo de constantes vitales y el sistema de alertas.
+
+<img src="/report/assets/flow-diagram.png" alt="Pantalla de configuración" />
+
 
 ## 4.5. Web Applications Prototyping
 
@@ -495,7 +500,7 @@ El bounded context Loyalty and Engagement está orientado a la interacción inic
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-![](assets/component-diagram.png)
+![](assets/component-diagram3.png)
 
 ## 4.7. Software Object-Oriented Design
 
