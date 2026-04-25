@@ -274,52 +274,53 @@ En este apartado se describe la estructura del sitio de nuestro proyecto. Con el
 **Header (Encabezado):**
 Ubicado en la parte superior, contiene el logotipo y el menú de navegación (Home, Beneficios, Testimonios, Planes). Su función es permitir el acceso rápido a las secciones principales sin perder el contexto.
 
-![](/report/assets/wireframe1-header.png)
+<img src="/report/assets/wireframe1-header.png" alt="" />
 
 **Sección principal:**
 
 Es la primera sección visible. Incluye un mensaje principal, una breve descripción y un botón CTA como “Prueba Demo”. Su función es captar la atención del usuario e interactuar con la plataforma.
 
-![](/report/assets/wireframe-principal.png)
+<img src="/report/assets/wireframe-principal.png" alt="" />
 
 **Sección de Beneficios:**
 
 Presenta las ventajas principales del sistema (monitoreo en tiempo real, seguridad,
 tecnología médica).
 
-![](/report/assets/wireframe-benefits.png)
+<img src="/report/assets/wireframe-benefits.png" alt="" />
 
 **Sección de Testimonios:**
 
 Muestra la experiencia de usuarios como padres o pediatras. Su función es generar
 confianza a otros usuarios.
 
-![](/report/assets/wireframe-testimonials.png)
+<img src="/report/assets/wireframe-testimonials.png" alt="" />
 
 **Sección de Precio y Planes:**
 
 Se detallan los distintos tipos de suscripciones disponibles para el usuario. Su funcion es
 permitir al usuario comparar los diferentes planes.
 
-![](/report/assets/wireframe-prices-plans.png)
+<img src="/report/assets/wireframe-prices-plans.png" alt="" />
 
 **Sección Capturas de Pantalla:**
 
 Se muestran evidencias visuales del uso de nuestra aplicación. Su función informar al usuario de cómo se emplea nuestra aplicación.
 
-![](/report/assets/wireframe-screenshots.png)
+<img src="/report/assets/wireframe-screenshots.png" alt="" />
 
 **Sección Desarrolladores:**
+
 Se mostrarán los encargados de haber desarrollado la aplicación.
 
-![](/report/assets/wireframe-creators.png)
+<img src="/report/assets/wireframe-creators.png" alt="" />
 
 **Footer:**
 Contiene información adicional como contactos, enlaces secundarios o derechos de autor.
 
 Su función es cerrar la navegación y ofrecer información complementaria.
 
-![](/report/assets/wireframe-footer.png)
+<img src="/report/assets/wireframe-footer.png" alt="" />
 
 ### 4.3.2. Landing Page Mock-up.
 
@@ -329,7 +330,7 @@ Presenta un diseño limpio de fondo blanco, logotipo de SIRAN en
 tono azules ubicado en la parte izquierda del menú de navegación y a la derecha (Home,
 Beneficios, Testimonios y Planes), acompañado del botón destacado.
 
-![](assets/mockup-header.png)
+<img src="/report/assets/mockup-header.png" alt="" />
 
 **Sección Principal:**
 
@@ -337,7 +338,7 @@ Sección destacada con fondo grisáceo, un título principal en tipografía
 Poppins, texto descriptivos en tipografía Roboto y un botón en azul. Se incluye una imagen
 representativa.
 
-![](/report/assets/mockup-principal.png)
+<img src="/report/assets/mockup-principal.png" alt="" />
 
 **Sección Beneficios:**
 
@@ -345,14 +346,14 @@ Se organiza en columnas con tarjetas que contiene iconos, título y
 descripciones cortas, utilizando un fondo azul lavanda en las tarjetas y un fondo blanco
 principal.
 
-![](/report/assets/mockup-benefits.png)
+<img src="/report/assets/mockup-benefits.png" alt="" />
 
 **Sección Testimonios:**
 
 Tarjetas con fondo celeste pastel que contiene opiniones de usuarios,
 nombres e imágenes.
 
-![](/report/assets/mockup-testimonials.png)
+<img src="/report/assets/mockup-testimonials.png" alt="" />
 
 **Sección Planes:**
 
@@ -360,26 +361,26 @@ Tarjetas alineadas horizontalmente que presentan los planes de
 suscripción, con precios, características y botones. Se puede destacar un plan con color
 diferente.
 
-![](/report/assets/mockup-prices-plans.png)
+<img src="/report/assets/mockup-prices-plans.png" alt="" />
 
 **Sección Capturas de Pantalla:**
 
 Presentación visuales de nuestra aplicación con diferentes
 usuarios como los pediatras o padres.
 
-![](assets/mockup-screenshots.png)
+<img src="/report/assets/mockup-screenshots.png" alt="" />
 
 **Sección de Desarrolladores:**
 
 Se muestran a los encargados de haber desarrollado la
 aplicación.
 
-![](assets/mockup-creators.png)
+<img src="/report/assets/mockup-creators.png" alt="" />
 
 **Sección Footer:**
 Sección final con fondo blanco y celeste pastel, que incluye información adicional, enlaces y derechos de autor. Además de presentar enlaces a instagram y facebook.
 
-![](assets/mockup-footer.png)
+<img src="/report/assets/footer.png" alt="" />
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -396,11 +397,12 @@ En esta sección se presentan los esquemas visuales de baja fidelidad (wireframe
 <img src="/report/assets/wireframe-report.png" alt="Wireframe de Reportes" />
 <img src="/report/assets/wireframe-config.png" alt="Wireframe de Configuración" />
 
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-Esta sección expone los wireflows de la plataforma, los cuales fusionan el diseño estructural de las pantallas con el flujo de navegación del usuario. Su finalidad es ilustrar paso a paso la experiencia de interacción, mostrando cómo cada interacción del usuario deriva en una respuesta específica del sistema.
+En esta sección se presentan los esquemas visuales de baja fidelidad (wireframes) de la aplicación web **SIRAN**. El propósito de estos diseños es establecer la arquitectura de la información, la jerarquía de los componentes en la interfaz y la lógica de navegación entre los diversos módulos del sistema, tales como el registro neonatal, el monitoreo de constantes vitales y el sistema de alertas.
 
-<img src="/report/assets/wireflow-diagram.png" alt="" />
+<img src="/report/assets/flow-diagram.png" alt="" />
 
 
 
@@ -418,6 +420,11 @@ Esta sección expone los wireflows de la plataforma, los cuales fusionan el dise
 
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+En esta sección se presentan los esquemas visuales de baja fidelidad (wireframes) de la aplicación web SIRAN. El propósito de estos diseños es establecer la arquitectura de la información, la jerarquía de los componentes en la interfaz y la lógica de navegación entre los diversos módulos del sistema, tales como el registro neonatal, el monitoreo de constantes vitales y el sistema de alertas.
+
+<img src="/report/assets/flow-diagram.png" alt="1" />
+
 
 ## 4.5. Web Applications Prototyping
 
@@ -437,8 +444,7 @@ El bounded context Identity and Access Management se encarga de gestionar la ide
 
 Este contexto administra procesos como el registro de usuarios, autenticación, gestión de credenciales y control de roles. Además, establece las reglas de seguridad necesarias para proteger la información sensible, asegurando la confidencialidad e integridad de los datos dentro del ecosistema.
 
-<img src="/report/assets/bounded-iam.png" alt="" />
-
+![](assets/bounded-iam.png)
 
 **2. Bounded Context Subscriptions and Payment Management:**
 
@@ -446,56 +452,57 @@ El bounded context Subscriptions and Payment Management gestiona todo lo relacio
 
 Este contexto administra la visualización de planes, la activación de suscripciones, la validación de transacciones y la gestión del estado de los pagos. Asimismo, garantiza que el acceso a funcionalidades avanzadas esté condicionado al estado de la suscripción del usuario.
 
-<img src="/report/assets/bounded-suspcription.png" alt="" />
+![](assets/bounded-suscription.png)
 
 **3. Bounded Context Profiles and Preferences Management**
 
 El bounded context Profiles and Preferences Management se encarga de la gestión de la información del usuario y de la configuración personalizada del sistema. Su propósito es adaptar el comportamiento de la plataforma a las características específicas de cada usuario y del neonato. Incluye la administración de perfiles, parámetros clínicos configurables y preferencias de notificación. Este contexto permite ajustar el sistema a diferentes escenarios, asegurando que las alertas y recomendaciones sean coherentes con las condiciones particulares de cada caso.
 
-<img src="/report/assets/bounded-profile.png" alt="" />
+![](assets/bounded-profile.png)
 
 **4. Bounded Context Service Design and Planning:**
 
 El bounded context Service Design and Planning se enfoca en la planificación del seguimiento clínico y la estructuración de las acciones que guían el monitoreo del neonato.Su objetivo es organizar de manera lógica y anticipada las actividades necesarias para el cuidado continuo. Este contexto permite definir esquemas de seguimiento, establecer prioridades de atención y estructurar recomendaciones basadas en el estado del neonato. Actúa como un componente estratégico que orienta la toma de decisiones y coordina las acciones dentro del sistema.
 
-<img src="/report/assets/bounded-service.png" alt="" />
+![](assets/bounded-service.png)
 
 **5. Bounded Context Resource and Asset Management:**
 
 El bounded context Resource and Asset Management gestiona los recursos de información generados dentro de la plataforma, especialmente los datos clínicos y registros asociados al neonato. Su finalidad es garantizar la correcta organización, almacenamiento y disponibilidad de la información. Incluye la administración de registros de salud, observaciones y documentos clínicos. Este contexto asegura la trazabilidad de los datos a lo largo del tiempo, permitiendo su consulta,análisis y reutilización en diferentes procesos del sistema.
 
-<img src="/report/assets/bounded-resource.png" alt="" />
+![](assets/bounded-resource.png)
 
 **6. Bounded Context Service Execution and Monitoring:**
 
 El bounded context Service Execution and Monitoring constituye el núcleo operativo del sistema, donde se ejecuta el monitoreo continuo del estado del neonato. Su responsabilidad es procesar los datos registrados, evaluar su validez y detectar posibles anomalías. Este contexto se encarga de la validación de parámetros, la generación de alertas y la gestión de eventos críticos. Además, coordina la comunicación de resultados hacia otros contextos, permitiendo una respuesta oportuna ante situaciones de riesgo.
 
-<img src="/report/assets/bounded-monitoring.png" alt="" />
+![](assets/bounded-monitoring.png)
 
 **7. Bounded Context Dashboard and Analytics:**
 
 El bounded context Dashboard and Analytics se encarga de transformar los datos registrados en información significativa para los usuarios. Su objetivo es facilitar la interpretación del estado del neonato mediante visualizaciones claras y análisis comprensibles. Incluye la generación de reportes, resúmenes y representaciones gráficas de la evolución del bebé. Este contexto permite identificar patrones, tendencias y comportamientos relevantes que apoyan la toma de decisiones tanto de padres como de profesionales de la salud.
 
-<img src="/report/assets/bounded-dashboard.png" alt="" />
+![](assets/bounded-dashboard.png)
 
 **8. Bounded Context Loyalty and Engagement:**
 
 El bounded context Loyalty and Engagement está orientado a la interacción inicial ycontinua con los usuarios, especialmente en la etapa de captación y generación deconfianza. Su propósito es comunicar el valor de la plataforma y fomentar la adopción delsistema. Este contexto gestiona la presentación de beneficios, contenido informativo y elementos que fortalecen la credibilidad del producto. Además, contribuye a mejorar la experiencia delusuario, incentivando su permanencia y uso continuo de la plataforma.
 
-<img src="/report/assets/bounded-loyalty.png" alt="" />
+![](assets/bounded-loyalty.png)
 
 ----
 ### 4.6.2. Software Architecture Context Diagram
 
-<img src="/report/assets/context-diagram.png" alt="" />
+![](assets/context-diagram.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-<img src="/report/assets/containers-diagram.png" alt="" />
+![](assets/containers-diagram.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 
 <img src="/report/assets/component-diagram.png" alt="" />
+
 
 ## 4.7. Software Object-Oriented Design
 
