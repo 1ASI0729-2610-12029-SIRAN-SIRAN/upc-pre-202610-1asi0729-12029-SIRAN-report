@@ -181,11 +181,11 @@ Por otro lado, los médicos pediatras centran su mayor interés en la generació
 
 **Padres Primerizos**
 
-<img src="assets\Segemento_ Padres primerizos.png">
+<img src="assets\Segemento-Padres-primerizos.png">
 
 **Medicos pediatras**
 
-<img src="assets\Segemento_ Medicos pediatras.png">
+<img src="assets\Segemento-Medicos-pediatras.png">
 
 ### 2.3.4. Empathy Mapping
 
