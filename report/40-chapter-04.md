@@ -397,6 +397,7 @@ En esta sección se presentan los esquemas visuales de baja fidelidad (wireframe
 <img src="/report/assets/wireframe-report.png" alt="Wireframe de Reportes" />
 <img src="/report/assets/wireframe-config.png" alt="Wireframe de Configuración" />
 
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 En esta sección se presentan los esquemas visuales de baja fidelidad (wireframes) de la aplicación web **SIRAN**. El propósito de estos diseños es establecer la arquitectura de la información, la jerarquía de los componentes en la interfaz y la lógica de navegación entre los diversos módulos del sistema, tales como el registro neonatal, el monitoreo de constantes vitales y el sistema de alertas.
