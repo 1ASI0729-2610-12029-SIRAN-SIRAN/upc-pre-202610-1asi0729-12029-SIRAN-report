@@ -54,17 +54,21 @@ Preguntas complementarias:
 
 ### 2.2.2. Registro de entrevistas
 
+Link del video: (https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b564_upc_edu_pe/IQBKj0SJ98miTrtVU9iJqOWIAS6XLWSnvRIHoCxDzIigrAo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Tx0Zti)
+
 **Segmento 01: Padres primerizos**
 
 **Entrevistado: Manuel Alcántara**
 
 <img src="assets\entrevista4.png">
+Empieza en el minuto 00:05
 
 Manuel dedica las 24 horas del día a monitorear, alimentar y hacer dormir a su bebé. Expresa que la falta de experiencia genera una sensación incontrolable de incertidumbre, especialmente al no saber identificar las causas del llanto o malestar del neonato. No utiliza herramientas digitales especializadas y registra los eventos en un chat de WhatsApp con su pareja, lo cual considera tedioso e inexacto debido al cansancio. En las consultas médicas, solo reporta "lo que se acuerda" en el momento. Valora positivamente una herramienta con botones grandes y poco texto que le ahorre tiempo y esfuerzo.
 
 **Entrevistado: Gabriel Satornicio**
 
 <img src="assets\entrevista5.png">
+Empieza en el minuto 02:47
 
 Gabriel, padre primerizo, describe los primeros días tras el alta como una experiencia caótica y desordenada debido a la falta de horarios fijos y la constante atención que requiere el bebé. Actualmente monitorea la salud del neonato de forma subjetiva ("al ojo"), observando la alimentación y la respiración. Confiesa haber sentido inseguridad ante posibles anomalías respiratorias, teniendo que recurrir a internet por falta de datos objetivos. No utiliza aplicaciones digitales y comunica la salud al pediatra basándose únicamente en su interpretación personal de los síntomas, lo que resulta impreciso. Estaría muy dispuesto a usar SIRAN si está validada por médicos y no es invasiva para el bebé.
 
@@ -74,6 +78,7 @@ Gabriel, padre primerizo, describe los primeros días tras el alta como una expe
 - **Entrevistada: Gianella Bartolo**
 
 <img src="assets\entrevista1.png">
+Empieza en el minuto 06:20
 
 Gianella coincide en que la información de los padres suele ser anecdótica y ocultar datos relevantes por descuido. Dedica entre 5 y 10 minutos de cada consulta solo a tratar de reconstruir el historial reciente del bebé. Aunque usa sistemas de gestión hospitalaria (HIS/EHR), advierte que la integración con apps externas debe ser sencilla para evitar el "doble trabajo" de copiar datos manualmente. Recomienda que la interfaz para padres sea sumamente práctica y clara para asegurar la calidad del registro.
 
@@ -81,6 +86,7 @@ Gianella coincide en que la información de los padres suele ser anecdótica y o
 - **Entrevistada: Brenda Morales**
 
 <img src="assets\entrevista2.png">
+Empieza en el minuto 11:39
 
 Brenda recalca que la precisión en el registro del peso y las tomas de leche es vital para evitar deshidrataciones post-alta. Ha presenciado casos donde un mal registro de los padres derivó en ingresos por emergencia a los pocos días del alta. Indica que un sistema de alertas sería ideal si permite filtrar la gravedad (ej. una alerta roja por fiebre de 38°C vs. una duda menor). Prefiere reportes en formato de gráficos y tablas para una interpretación visual rápida de las tendencias fisiológicas.
 
@@ -88,6 +94,7 @@ Brenda recalca que la precisión en el registro del peso y las tomas de leche es
 **Entrevistada: Victoria Diaz**
 
 <img src="assets\entrevista3.png">
+Empieza en el minuto 17:10
 
 Victoria solicita datos sobre alimentación, sueño, diuresis y fiebre, pero indica que la información rara vez es completa porque los padres olvidan detalles u omiten observaciones críticas. Esto la obliga a basar su valoración inicial en datos inexactos que luego debe corroborar con el examen clínico. Utiliza WhatsApp para emergencias, pero no le resulta satisfactorio para el seguimiento. Considera imprescindibles los gráficos de peso, temperatura y frecuencia cardíaca. Afirma que una herramienta automática como SIRAN ayudaría al personal de salud a optimizar su tiempo para atender a más recién nacidos.
 
