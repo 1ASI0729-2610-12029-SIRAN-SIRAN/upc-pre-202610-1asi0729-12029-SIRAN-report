@@ -410,13 +410,31 @@ Registro de evidencia de ramas de trabajo en Report:
 
 La evidencia del trabajo de ramas presenta una desactualización en el progreso, pues GitHub renderiza el gráfico de avance dejando de 24 a 48 horas. Se recomienda ver la rama actualizada usando el vínculo que se encuentra en el Anexo 3.
 
+Registro de evidencia de ramas de trabajo en Landing Page:
+
+<img src="assets/evidence-ladingpage-01-sprint-01.PNG" alt="">
+
+Se visualiza un fallo en gráfico generado por GitHub, pues, sí, hicimos un *checkout* desde develop. Sin embargo, el merge no fue de develop a main, sino de release/v1.0.0 dentro de main, como exige el documento.
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 Para este cierre del Sprint 1, nuestra evidencia se estructura en dos pilares: en Trello se detalla el estado del Product Backlog con las prioridades actualizadas y el flujo de historias terminadas. Por su parte, en Figma se presenta el incremento de valor mediante un prototipo funcional que integra los criterios de aceptación. Para acceder a los enlaces, dirigirse al Anexo 4.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-PONER EVIDENCIA DE DEPLOY DE LANDING PAGE
+Evidencias del Deploy de nuestra Landing Page:
+
+<img src="assets/deployment-evidence-01-sprint-01.PNG" alt="">
+
+<img src="assets/deployment-evidence-02-sprint-01.PNG" alt="">
+
+<img src="assets/deployment-evidence-03-sprint-01.PNG" alt="">
+
+<img src="assets/deployment-evidence-04-sprint-01.PNG" alt="">
+
+<img src="assets/deployment-evidence-05-sprint-01.PNG" alt="">
+
+<img src="assets/deployment-evidence-06-sprint-01.PNG" alt="">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
