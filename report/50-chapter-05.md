@@ -358,7 +358,45 @@
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-PONER EVIDENCIA DE COMMITS
+La siguiente tabla presenta una selección de las contribuciones más significativas realizadas durante este sprint. Estas entradas representan hitos clave y prácticas seguidas entre los desarrolladores en el desarrollo del proyecto, incluyendo la estructuración de la documentación, solución de los Technical Stories y las correcciones críticas, lo que proporciona una clara evidencia del progreso del equipo y su adhesión al flujo de trabajo establecido.
+
+<table border="1" style="border-collapse:collapse">
+<tr>
+<th>Repository</th>
+<th>Branch</th>
+<th>Commit Id</th>
+<th>Commit Message</th>
+<th>Commited on Date</th>
+</tr>
+<tr>
+<td>Calin1407/1ASI0729-2610-12029-SIRAN-SIRAN/upc-pre-202610-1asi0729-12029-SIRAN-report</td>
+<td>main</td>
+<td>83eb0bf3d9a9e2c32068215e47b64baabd86ce59</td>
+<td>docs: a documentation report was created</td>
+<td>15/04/2026</td>
+</tr>
+<tr>
+<td>BL4Z3K4D/1ASI0729-2610-12029-SIRAN-SIRAN/upc-pre-202610-1asi0729-12029-SIRAN-report</td>
+<td>feature/startup-profile</td>
+<td>4dfbbe9a3e745f267900b40a426ae613a70c728a</td>
+<td>docs(): add content to startup about and profile integrants</td>
+<td>16/04/2026</td>
+</tr>
+<td>Calin1407/1ASI0729-2610-12029-SIRAN-SIRAN/upc-pre-202610-1asi0729-12029-SIRAN-report</td>
+<td>hotfix/restructure-metadata-yaml</td>
+<td>eb6de63ad10a57693eb640ea9a4d89257b10f8ee</td>
+<td>fix: restructure metadata.yaml for PDF engine compatibility</td>
+<td>21/04/2026</td>
+<tr>
+<td>Daroh19/1ASI0729-2610-12029-SIRAN-SIRAN/upc-pre-202610-1asi0729-12029-SIRAN-report</td>
+<td>feature/dd-software-architecture</td>
+<td>6ec1e219a0113b1a486e73ba63be18e8e0a99ab6</td>
+<td>docs(dd-software-architecture): update chapter 04 with detailed descriptions of bounded contexts.</td>
+<td>24/04/2026</td>
+</tr>
+</table>
+
+Debido a las limitaciones presentes en el documento, se prefirió no documentar todo el historial de contribuciones de los miembros. Asimismo, se recomienda visualizar el historial armado por GitHub en el Anexo 3.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
