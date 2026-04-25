@@ -4,7 +4,7 @@
 
 ### 2.1.1. Análisis competitivo
 
-<table>
+<table border="1" style="border-collapse:collapse">
   <tr>
     <th colspan="6" valign="top">Competitive Analysis Landscape</th>
   </tr>
