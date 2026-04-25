@@ -200,6 +200,6 @@ Por otro lado, los médicos pediatras centran su mayor interés en la generació
 ### 2.4. Big Picture Event Storming
 
 **Event Storming**
-<img src="assets\Untitled - Event Storming.jpg">
+<img src="assets\big-picture-event-storming.jpg">
 
 ### 2.5. Ubiquitous Language
