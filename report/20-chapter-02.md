@@ -161,11 +161,11 @@
 
 **Padres Primerizos**
 
-<img src="assets\Elena García.png">
+<img src="assets/Elena-García.png">
 
 **Medico Pediatra**
 
-<img src="assets\Dr. Ricardo Torres.png">
+<img src="assets/Dr-Ricardo-Torres.png">
 
 ### 2.3.2. User Task Matrix
 
