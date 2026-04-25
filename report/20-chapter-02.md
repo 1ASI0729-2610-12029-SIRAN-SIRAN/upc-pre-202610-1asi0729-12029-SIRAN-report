@@ -295,6 +295,14 @@ Por otro lado, los médicos pediatras centran su mayor interés en la generació
 
 ### 2.3.4. Empathy Mapping
 
+**Padres primerizos**
+ 
+<img src="assets\Empathy-map-padres.png">
+
+**Medicos Pediatras**
+
+<img src="assets\Empathy-map-medicos.png">
+
 ### 2.4. Big Picture Event Storming
 
 ### 2.5. Ubiquitous Language
