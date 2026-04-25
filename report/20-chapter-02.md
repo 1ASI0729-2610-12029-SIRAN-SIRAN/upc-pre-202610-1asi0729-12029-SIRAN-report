@@ -310,3 +310,21 @@ Por otro lado, los médicos pediatras centran su mayor interés en la generació
 <img src="assets\big-picture-event-storming.jpg">
 
 ### 2.5. Ubiquitous Language
+
+- Medic (Médico): Entidad que representa al profesional de la salud (pediatra o neonatólogo) encargado de supervisar los reportes y configurar los rangos de seguridad para cada paciente.
+
+- HealthRecord (Registro de Salud): Entrada clínica diaria que contiene los parámetros fisiológicos del neonato, específicamente la saturación de oxígeno (oxygenSaturation) y la temperatura corporal (temperature).
+
+- AlertRange (Rango de Alerta): Configuración de límites fisiológicos (maxValue y minValue) que determinan cuándo un signo vital es considerado crítico y debe disparar una notificación automática.
+
+- Notification (Notificación): Alerta generada por el sistema y enviada al dispositivo del padre o médico cuando un HealthRecord se encuentra fuera del AlertRange establecido.
+
+- HealthReport (Reporte de Salud): Documento profesional exportable (PDF) que consolida el resumen clínico, la temperatura promedio (averageTemperature) y la ganancia de peso del bebé durante un periodo determinado.
+
+- Cuidado Esencial / Profesional: Hace referencia a los niveles de servicio dentro de los planes de suscripción (UserSubscription), que varían desde el monitoreo básico (S/ 0.00) hasta el seguimiento profesional con reportes descargables (S/ 99.90).
+
+- Tendencia Fisiológica: Comportamiento de los signos vitales a lo largo del tiempo que permite al médico anticipar posibles complicaciones antes de que se conviertan en emergencias.
+
+- Baby (Neonato): Entidad central del sistema que representa al recién nacido monitoreado, vinculado a su historial (idBaby), fecha de nacimiento (birthday) y género.
+
+- Sincronización Neonatal: Proceso de vinculación en tiempo real entre los registros ingresados por los padres en la Web App y la visualización inmediata en el panel del médico.
