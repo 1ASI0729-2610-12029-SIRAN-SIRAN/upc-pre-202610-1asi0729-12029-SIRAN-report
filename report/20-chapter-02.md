@@ -10,12 +10,6 @@
 
 ### 2.2.1. Diseño de entrevistas
 
-### 2.1.2. Estrategias y tácticas frente a competidores
-
-## 2.2. Entrevistas
-
-### 2.2.1. Diseño de entrevistas
-
 Segmento 1: Padres primerizos
 
 Preguntas principales:
