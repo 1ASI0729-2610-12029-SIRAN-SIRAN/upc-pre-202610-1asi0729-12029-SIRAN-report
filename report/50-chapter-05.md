@@ -454,7 +454,7 @@ La siguiente tabla presenta una selección de las contribuciones más significat
 </tr>
 </table>
 
-Debido a las limitaciones presentes en el documento, se prefirió no documentar todo el historial de contribuciones de los miembros. Asimismo, se recomienda visualizar el historial armado por GitHub en el Anexo 3.
+Debido a las limitaciones presentes en el documento, se prefirió no documentar todo el historial de contribuciones de los miembros. Asimismo, se recomienda visualizar el historial armado por GitHub en el Anexo 2.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -466,7 +466,7 @@ Registro de evidencia de ramas de trabajo en Report:
 
 <img src="assets/network-3-sprint-01.png" alt="">
 
-La evidencia del trabajo de ramas presenta una desactualización en el progreso, pues GitHub renderiza el gráfico de avance dejando de 24 a 48 horas. Se recomienda ver la rama actualizada usando el vínculo que se encuentra en el Anexo 3.
+La evidencia del trabajo de ramas presenta una desactualización en el progreso, pues GitHub renderiza el gráfico de avance dejando de 24 a 48 horas. Se recomienda ver la rama actualizada usando el vínculo que se encuentra en el Anexo 2.
 
 Registro de evidencia de ramas de trabajo en Landing Page:
 
