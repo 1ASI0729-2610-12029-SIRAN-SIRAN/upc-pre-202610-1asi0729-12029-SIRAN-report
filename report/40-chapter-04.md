@@ -722,27 +722,20 @@ Antes de crear una base de datos, se debe de modelar el sistema considerando las
 ```plantuml
 
 @startuml
-'//---Users---//
-entity Parents{
-*idParents: String <<PK>>
----
-name: String
-phoneNumber: String
-email: String
-}
-entity Medic{
-*idMedic: String <<PK>>
----
-name: String
-phoneNumber: String
-email: String
+entity User {
+  *idUser: String <<PK>>
+  ---
+  email: String <<Unique>>
+  password: String
+  role: Enum
+  name: String
+  phoneNumber: String
+  createdAt: LocalDateTime
+  ' Campos específicos (opcionales según rol)
+  medicalLicense: String
+  specialty: String
 }
 
-
-
-
-
-'//---IoT Hardware---//
 entity Device {
   *idDevice: String <<PK>>
   --
@@ -752,68 +745,55 @@ entity Device {
   idBaby: String <<FK>>
 }
 
-
-
-
-
-'//---Subscription---//
-entity SubscriptionPlan{
-*idPlan: String <<PK>>
----
-name: String
-price: Double
-features: String
-}
-entity UserSubscription{
-*idUserSub: String <<PK>>
----
-startDate: LocalDateTime
-endDate: LocalDateTime
-paymentStatus: String
-idParents: String <<FK>>
-idPlan: String <<FK>>
+entity SubscriptionPlan {
+  *idPlan: String <<PK>>
+  ---
+  name: String
+  price: Double
+  features: String
 }
 
-
-
-
-
-'//---To Business---//
-entity Notification{
-*idNotification: String <<PK>>
----
-type: String
-read: Boolean
-description: String
-readAt: LocalDateTime
-sentAt: LocalDateTime
-idParents: String <<FK>>
-idMedic: String <<FK>>
-idHealthRecord: String <<FK>>
-}
-entity AlertRange{
-*idAlertRaNge: String <<PK>>
----
-type: String
-maxValue: Double
-minValue: Double
-description: String
-idMedic: String <<FK>>
+entity UserSubscription {
+  *idUserSub: String <<PK>>
+  ---
+  startDate: LocalDateTime
+  endDate: LocalDateTime
+  paymentStatus: String
+  idUser: String <<FK>>
+  idPlan: String <<FK>>
 }
 
-
-
-
-
-'//---Related to the baby's health---//
-entity Baby{
-*idBaby: String <<PK>>
----
-name: String
-birthday: LocalDateTime
-gender: String
-idParents: String <<FK>>
+entity Notification {
+  *idNotification: String <<PK>>
+  ---
+  type: String
+  read: Boolean
+  description: String
+  readAt: LocalDateTime
+  sentAt: LocalDateTime
+  idUser: String <<FK>> ' Quien recibe la notificación
+  idHealthRecord: String <<FK>>
 }
+
+entity AlertRange {
+  *idAlertRange: String <<PK>>
+  ---
+  type: String
+  maxValue: Double
+  minValue: Double
+  description: String
+  idUser: String <<FK>> ' El médico que define el rango
+}
+
+entity Baby {
+  *idBaby: String <<PK>>
+  ---
+  name: String
+  birthday: LocalDateTime
+  gender: String
+  idUser: String <<FK>> ' El padre asociado
+}
+
 entity HealthRecord {
   *idHealthRecord: String <<PK>>
   --
@@ -824,56 +804,43 @@ entity HealthRecord {
   idBaby: String <<FK>>
   idDevice: String <<FK>>   
 }
-entity FollowUp{
-*idFollow: String
----
-status: String
-startAt: LocalDateTime
-endAt: LocalDateTime
-idBaby: String <<FK>>
-idMedic: String <<FK>>
+
+entity FollowUp {
+  *idFollow: String <<PK>>
+  ---
+  status: String
+  startAt: LocalDateTime
+  endAt: LocalDateTime
+  idBaby: String <<FK>>
+  idUser: String <<FK>> ' El médico asignado
 }
 
-
-
-
-
-'//---Dashboard---//
-entity HealthReport{
-*idReport: String <<PK>>
----
-generatedAt: LocalDateTime
-summary: String
-pdfURL: String
-avgTemperature: Double
-weightGain: Double
-idBaby: String <<FK>>
+entity HealthReport {
+  *idReport: String <<PK>>
+  ---
+  generatedAt: LocalDateTime
+  summary: String
+  pdfURL: String
+  avgTemperature: Double
+  weightGain: Double
+  idBaby: String <<FK>>
 }
 
-
-
-
-
-'//---Relationship---//
-Parents ||--|{ Baby
-Parents ||--|| UserSubscription
+User ||--|{ Baby : "is parent of"
+User ||--|| UserSubscription : "pays"
+User ||--o{ FollowUp : "medic attends"
+User ||--o{ AlertRange : "medic defines"
+User ||--o{ Notification : "receives"
 
 UserSubscription ||--|{ SubscriptionPlan
 Baby ||--o| HealthReport
-
 Baby ||--o| HealthRecord
 Baby ||--o{ FollowUp
-
-Medic ||--o{ FollowUp
-Parents ||--o{ Notification
-
-Medic ||--o{ AlertRange
-Medic ||--o{ Notification
-
-Baby ||--o|Device
-HealthRecord ||--o{ Notification
+Baby ||--o| Device
 
 Device ||--|{ HealthRecord
+HealthRecord ||--o{ Notification
+
 @enduml
 
 ```
