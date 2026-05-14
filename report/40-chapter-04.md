@@ -509,7 +509,7 @@ El bounded context Loyalty and Engagement está orientado a la interacción inic
 El Diseño de Software Orientado a Objetos (OOD) es una metodología que busca la definición de los objetos y la manera que se relaciona con otros objetos, con la finalidad de mantener un diseño coherente y eficiente, al momento de escalar (Schmidt, 2018).
 
 ### 4.7.1. Class Diagrams
-
+<!--
 ```plantuml
 @startuml
 '//---ENUM---//
@@ -711,14 +711,18 @@ Notification "n" -- "0..1" Medic
 Notification "n" -- "0..1" HealthRecord
 @enduml
 ```
+-->
 
+<img src="assets/uml1.png" alt="Database Diagram">
 
 ## 4.8. Database Design
 
 Antes de crear una base de datos, se debe de modelar el sistema considerando las necesidades del proyecto o negocio a realizar. La finalidad de esto es mostrar entidades, atributos y las relaciones que tienen dichas entidades (IBM, s.f.).
 
 ### 4.8.1. Database Diagram
+<img src="assets/UML2.png" alt="design Diagram">
 
+<!--
 ```plantuml
 
 @startuml
@@ -844,6 +848,8 @@ HealthRecord ||--o{ Notification
 @enduml
 
 ```
+-->
+
 
 - Descripción de entidades
     - Parents
